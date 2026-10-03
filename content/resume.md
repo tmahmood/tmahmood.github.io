@@ -1,3 +1,8 @@
++++
+title = "Resume"
+date = "2023-01-24"
++++
+
 # Tarin Mahmood
 Freelance Software Engineer, Open source contributor, Game developer
 Location Dhaka, Bangladesh
@@ -5,8 +10,7 @@ Location Dhaka, Bangladesh
 - [GitHub](https://github.com/tmahmood/)
 - [LinkedIn](https://www.linkedin.com/in/tarinmahmood)
 
-## Career Summary
-
+## Expertise
 - Fullstack Development
 - Automation
 - Backend Development

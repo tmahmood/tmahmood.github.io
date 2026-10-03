@@ -1,0 +1,9 @@
+[submodule "themes/kaito"]
+	path = themes/kaito
+	url = https://git.colorized.life/demo.kaitokawasaka.net.git
+[submodule "themes/audrey"]
+	path = themes/audrey
+	url = https://git.colorized.life/demo.audreyrue.net.git
+[submodule "themes/apollo"]
+	path = themes/apollo
+	url = https://github.com/not-matthias/apollo
