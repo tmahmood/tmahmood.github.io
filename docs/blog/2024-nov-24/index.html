@@ -1,0 +1,384 @@
+
+<!DOCTYPE html>
+<html lang="en" class="dark light">
+
+    
+<head>
+    
+
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="base" content="https://tmahmood.github.io/" />
+
+    
+
+    
+
+    
+    
+    
+        <title>
+            
+                Going Back to iced after my Tauri Journey
+            
+        </title>
+
+        
+            <meta property="og:title"
+                  content="Going Back to iced after my Tauri Journey" />
+        
+    
+
+    
+        
+    
+
+    
+        
+    
+
+    
+    
+
+    
+    
+        <link href=https://tmahmood.github.io/fonts.css rel="stylesheet" />
+    
+
+    
+    
+
+    
+    
+
+    
+    
+
+    
+    
+
+    
+
+    
+    
+
+
+    
+
+    
+    
+
+    
+    
+        <link rel="stylesheet"
+              type="text/css"
+              href="https://tmahmood.github.io/theme/light.css" />
+        <link id="darkModeStyle"
+              rel="stylesheet"
+              type="text/css"
+              href="https://tmahmood.github.io/theme/dark.css" />
+    
+
+    
+        
+            <script>
+                var themeToggleMode = "toggle";
+            </script>
+        
+        <script src=https://tmahmood.github.io/js/themetoggle.js></script>
+
+        
+            <script>
+                setTheme(getSavedTheme());
+            </script>
+        
+    
+
+
+    <link rel="stylesheet"
+          type="text/css"
+          media="screen"
+          href="https://tmahmood.github.io/main.css" />
+
+    
+
+    
+
+</head>
+
+
+    <body>
+        
+
+        <div class="left-content">
+            
+            
+        </div>
+
+        <div class="content">
+            <nav>
+    <div class="left-nav">
+        
+            <a href=https://tmahmood.github.io/ class="logo">
+                <img alt="" src="https://tmahmood.github.io/logo.png" />
+            </a>
+        
+
+
+        <div class="socials">
+            
+                
+            
+            
+                <a rel='me' href="https://github.com/tmahmood/" class="social">
+                    <img alt="github"
+                         src="https://tmahmood.github.io/icons/social/github.svg" />
+                </a>
+            
+        </div>
+    </div>
+
+    <div class="right-nav">
+        
+            <a href=https://tmahmood.github.io/blog style="margin-right: 0.5em">/blog</a>
+        
+            <a href=https://tmahmood.github.io/projects style="margin-right: 0.5em">/projects</a>
+        
+            <a href=https://tmahmood.github.io/resume style="margin-right: 0.5em">/resume</a>
+        
+
+        
+
+        
+        
+            <a id="dark-mode-toggle"
+               onclick="toggleTheme(); event.preventDefault();"
+               href="#">
+                <img src="https://tmahmood.github.io/icons/sun.svg" id="sun-icon" alt="Light" />
+                <img src="https://tmahmood.github.io/icons/moon.svg"
+                     id="moon-icon"
+                     style="filter: invert(1)"
+                     alt="Dark" />
+                
+            </a>
+
+            <!-- Initialize the theme toggle icons -->
+            <script>
+                updateItemToggleTheme()
+            </script>
+        
+    </div>
+</nav>
+
+
+            
+            
+    
+<div class="visible-element-observer-root" data-selector="main article p">
+    <main>
+        <article>
+            <div class="title">
+                
+                
+
+    <div class="page-header">
+        Going Back to iced after my Tauri Journey
+    </div>
+
+
+
+                <div class="meta">
+                    
+                        Posted on <time>2024-11-24</time>
+                    
+
+
+                    
+
+                    
+
+                    
+
+                    
+                    
+
+                    
+                    
+
+                    
+                    
+
+                    
+
+                </div>
+            </div>
+
+            
+
+            <section class="body">
+                <h1 id="going-back-to-iced-after-my-tauri-journey">Going back to iced, after my tauri journey</h1>
+<p>Tauri is nice, it's really easy to get started, but I feel,
+iced deserves some attention, I have used it for a client in a previous project, and it worked pretty well.
+It worked on both Linux and Windows, without any extra hassle.
+Theming was a bit challenging, but I stole code from AirShipper and made my own.</p>
+<p>I switched to Tauri then because widget support is so much better, as it was simply HTML elements.</p>
+<p>But now I am working on a small application,
+which is unlikely to have any complex user interactions, so, I am giving iced another try.</p>
+<p>So, here's the first week of that journey!</p>
+<h2 id="day-one">Day One</h2>
+<p>Getting started was a bit tricky, a lot of changes that have broken my previous app, but the changes seem to be good
+changes. But my theme adapted from AirShipper was working anymore. I took a look at the AirShipper repo, and it seems
+like it has not updated since. Oh well,</p>
+<p>Examples were easy enough to get back to the flow.
+Guide is incomplete, have not seen anywhere mentioning which features to get started.
+But adding iced crate was enough to get started.</p>
+<p>Then took one of the default themes and made small changes, which, unfortunately, is not centralized. Will have to put it in a const and apply it on all widgets, to keep the UI consistent. Maybe a helper function to create widgets using the preferred settings? Will have to come to that later, as these are just visuals. For now, I got a tolerable theme for my new application.</p>
+<p>So! Back to the application. What am I building? An application launcher. This is not about discovering applications,
+but about running the app that I need right now, fast.
+We can do it using Desktop's keyboard shortcut feature, yes.
+But I have few issues with this, one if I change the DE to another one,
+I will have to map shortcuts for another DE again, moreover, backing up keyboard shortcuts is another pain point.
+And every DE have some predefined shortcuts, which might conflict with the one I have.
+Now changing the DE shortcut, would be another pain point.
+Too much work!
+So, this launcher wants to solve that.
+I have to allocate only one global keyboard shortcut, that will launch the app.
+Once the app is running, it will present the list of keyboard shortcuts that I can use,
+which can be all the characters available in keyboard, AND more with modifier key combinations.
+Now instead of getting limited to some keys, I have any keys I want to have, except for the Meta key of course :-)</p>
+<p>So, with DE level shortcuts, to run terminal I would press <code>Meta + Enter</code>,
+but with the launcher it will be <code>Meta+L</code> (say I've set <code>Meta+L</code> as my launcher's shortcut),
+once the launcher opens I press <code>Enter</code>, and the terminal opens.
+It's unlikely I am going to change my terminal shortcut, this is just an example.</p>
+<p>But yes, it adds an extra step, instead of direct invocation,
+but now I have option to run more things on one additional step.
+I think it's a good trade off.
+I use similar method in i3 to launch my regular applications.
+After a while it becomes a muscle memory.</p>
+<p>How to proceed about it? Well, the first thing is how to store the configuration?
+As usual, Serde + JSON won this round.
+Being so simple and straightforward to get on with.
+Now, create the configuration file, and put the configuration they way I want to, which is simply this:</p>
+<pre class="giallo" style="color: #CDD6F4; background-color: #1E1E2E;" ><code data-lang="json"><span class="giallo-l"></span>
+<span class="giallo-l"><span style="color: #9399B2;">[</span></span>
+<span class="giallo-l"><span style="color: #9399B2;">  {</span></span>
+<span class="giallo-l"><span style="color: #9399B2;">    &quot;</span><span style="color: #89B4FA;">group</span><span style="color: #9399B2;">&quot;:</span><span style="color: #A6E3A1;"> &quot;programs&quot;</span><span style="color: #9399B2;">,</span></span>
+<span class="giallo-l"><span style="color: #9399B2;">    &quot;</span><span style="color: #89B4FA;">shortcuts</span><span style="color: #9399B2;">&quot;: [</span></span>
+<span class="giallo-l"><span style="color: #9399B2;">      {</span></span>
+<span class="giallo-l"><span style="color: #9399B2;">        &quot;</span><span style="color: #89B4FA;">name</span><span style="color: #9399B2;">&quot;:</span><span style="color: #A6E3A1;"> &quot;VIM&quot;</span><span style="color: #9399B2;">,</span></span>
+<span class="giallo-l"><span style="color: #9399B2;">        &quot;</span><span style="color: #89B4FA;">cmd</span><span style="color: #9399B2;">&quot;:</span><span style="color: #A6E3A1;"> &quot;wezterm start vim&quot;</span><span style="color: #9399B2;">,</span></span>
+<span class="giallo-l"><span style="color: #9399B2;">        &quot;</span><span style="color: #89B4FA;">shortcut</span><span style="color: #9399B2;">&quot;:</span><span style="color: #A6E3A1;"> &quot;v&quot;</span><span style="color: #9399B2;">,</span></span>
+<span class="giallo-l"><span style="color: #9399B2;">        &quot;</span><span style="color: #89B4FA;">icon</span><span style="color: #9399B2;">&quot;:</span><span style="color: #A6E3A1;"> &quot;.default_icon&quot;</span></span>
+<span class="giallo-l"><span style="color: #9399B2;">      },</span></span>
+<span class="giallo-l"><span style="color: #9399B2;">      {</span></span>
+<span class="giallo-l"><span style="color: #9399B2;">        &quot;</span><span style="color: #89B4FA;">name</span><span style="color: #9399B2;">&quot;:</span><span style="color: #A6E3A1;"> &quot;blender&quot;</span><span style="color: #9399B2;">,</span></span>
+<span class="giallo-l"><span style="color: #9399B2;">        &quot;</span><span style="color: #89B4FA;">cmd</span><span style="color: #9399B2;">&quot;:</span><span style="color: #A6E3A1;"> &quot;blender&quot;</span><span style="color: #9399B2;">,</span></span>
+<span class="giallo-l"><span style="color: #9399B2;">        &quot;</span><span style="color: #89B4FA;">shortcut</span><span style="color: #9399B2;">&quot;:</span><span style="color: #A6E3A1;"> &quot;shift+b&quot;</span><span style="color: #9399B2;">,</span></span>
+<span class="giallo-l"><span style="color: #9399B2;">        &quot;</span><span style="color: #89B4FA;">icon</span><span style="color: #9399B2;">&quot;:</span><span style="color: #A6E3A1;"> &quot;.default_icon&quot;</span></span>
+<span class="giallo-l"><span style="color: #9399B2;">      }</span></span>
+<span class="giallo-l"><span style="color: #9399B2;">    ]</span></span>
+<span class="giallo-l"><span style="color: #9399B2;">  },</span></span>
+<span class="giallo-l"><span style="color: #9399B2;">  {</span></span>
+<span class="giallo-l"><span style="color: #9399B2;">    &quot;</span><span style="color: #89B4FA;">group</span><span style="color: #9399B2;">&quot;:</span><span style="color: #A6E3A1;"> &quot;Folders&quot;</span><span style="color: #9399B2;">,</span></span>
+<span class="giallo-l"><span style="color: #9399B2;">    &quot;</span><span style="color: #89B4FA;">shortcuts</span><span style="color: #9399B2;">&quot;: [</span></span>
+<span class="giallo-l"><span style="color: #9399B2;">      {</span></span>
+<span class="giallo-l"><span style="color: #9399B2;">        &quot;</span><span style="color: #89B4FA;">name</span><span style="color: #9399B2;">&quot;:</span><span style="color: #A6E3A1;"> &quot;Home&quot;</span><span style="color: #9399B2;">,</span></span>
+<span class="giallo-l"><span style="color: #9399B2;">        &quot;</span><span style="color: #89B4FA;">cmd</span><span style="color: #9399B2;">&quot;:</span><span style="color: #A6E3A1;"> &quot;nautilus&quot;</span><span style="color: #9399B2;">,</span></span>
+<span class="giallo-l"><span style="color: #9399B2;">        &quot;</span><span style="color: #89B4FA;">shortcut</span><span style="color: #9399B2;">&quot;:</span><span style="color: #A6E3A1;"> &quot;f&quot;</span><span style="color: #9399B2;">,</span></span>
+<span class="giallo-l"><span style="color: #9399B2;">        &quot;</span><span style="color: #89B4FA;">icon</span><span style="color: #9399B2;">&quot;:</span><span style="color: #A6E3A1;"> &quot;.default_icon&quot;</span></span>
+<span class="giallo-l"><span style="color: #9399B2;">      },</span></span>
+<span class="giallo-l"><span style="color: #9399B2;">      {</span></span>
+<span class="giallo-l"><span style="color: #9399B2;">        &quot;</span><span style="color: #89B4FA;">name</span><span style="color: #9399B2;">&quot;:</span><span style="color: #A6E3A1;"> &quot;Downloads&quot;</span><span style="color: #9399B2;">,</span></span>
+<span class="giallo-l"><span style="color: #9399B2;">        &quot;</span><span style="color: #89B4FA;">cmd</span><span style="color: #9399B2;">&quot;:</span><span style="color: #A6E3A1;"> &quot;nautilus /home/mahmood/Downloads&quot;</span><span style="color: #9399B2;">,</span></span>
+<span class="giallo-l"><span style="color: #9399B2;">        &quot;</span><span style="color: #89B4FA;">shortcut</span><span style="color: #9399B2;">&quot;:</span><span style="color: #A6E3A1;"> &quot;d&quot;</span><span style="color: #9399B2;">,</span></span>
+<span class="giallo-l"><span style="color: #9399B2;">        &quot;</span><span style="color: #89B4FA;">icon</span><span style="color: #9399B2;">&quot;:</span><span style="color: #A6E3A1;"> &quot;.default_icon&quot;</span></span>
+<span class="giallo-l"><span style="color: #9399B2;">      }</span></span>
+<span class="giallo-l"><span style="color: #9399B2;">    ]</span></span>
+<span class="giallo-l"><span style="color: #9399B2;">  }</span></span>
+<span class="giallo-l"><span style="color: #9399B2;">]</span></span>
+<span class="giallo-l"></span></code></pre>
+<p>I have plans with the <code>groups</code>, but it's now just there. So is the icon field.</p>
+<p>Good thing about Intellij's Rust plugin is, you can copy a valid JSON structure, paste it, and it will generate the structs for you!
+This is an amazingly useful feature! Saves so much time. I am sure there are specific tools for this.
+Maybe I'll have to take a look someday.</p>
+<p>Making the GUI was straightforward. Well, this is a plain application anyway.
+Once I have the core features done, I will finetune it.</p>
+<p><img src="../../../assets/2024-11-29_14-34.png" alt="2024-11-29_14-34.png" /></p>
+<p>Yeah, not the best of looks. But it works.</p>
+<p>Now, until I add a configuration option in the UI, only way to add shortcuts is to edit the json file.
+But changes are not reloaded automatically, will have to restart the program everytime there is a change.
+So I want to run a background task that will check the config file and reload if any changes are made.
+And iced comes with <code>time::every</code> function, that would do the job.
+But it's not available with <code>default</code> features. At first I was confused, why is it not available?
+Actually, this is available only with certain features.
+One of them is <code>smol</code>, so I add that.</p>
+<p>Now in the subscription method, I have two tasks, one is the timer another is key press listener.
+using <code>Subscription::batch</code> I can return multiple tasks.</p>
+<p>So, now I have a task that reloads the configuration file every 2 seconds,
+I need to check the file modification date and only update if it's older than the loaded file.
+Before I get to that, another important issue I had to solve.</p>
+<p>Running the commands have an issue, say you have a configuration like this:</p>
+<pre class="giallo" style="color: #CDD6F4; background-color: #1E1E2E;" ><code data-lang="json"><span class="giallo-l"><span style="color: #9399B2;"> {</span></span>
+<span class="giallo-l"><span style="color: #9399B2;">  &quot;</span><span style="color: #89B4FA;">name</span><span style="color: #9399B2;">&quot;:</span><span style="color: #A6E3A1;"> &quot;System update&quot;</span><span style="color: #9399B2;">,</span></span>
+<span class="giallo-l"><span style="color: #9399B2;">  &quot;</span><span style="color: #89B4FA;">cmd</span><span style="color: #9399B2;">&quot;:</span><span style="color: #A6E3A1;"> &quot;wezterm start tmux new &#39;yay -Suy --noconfirm; read&#39;&quot;</span><span style="color: #9399B2;">,</span></span>
+<span class="giallo-l"><span style="color: #9399B2;">  &quot;</span><span style="color: #89B4FA;">shortcut</span><span style="color: #9399B2;">&quot;:</span><span style="color: #A6E3A1;"> &quot;s&quot;</span><span style="color: #9399B2;">,</span></span>
+<span class="giallo-l"><span style="color: #9399B2;">  &quot;</span><span style="color: #89B4FA;">icon</span><span style="color: #9399B2;">&quot;:</span><span style="color: #A6E3A1;"> &quot;.default_icon&quot;</span></span>
+<span class="giallo-l"><span style="color: #9399B2;">}</span></span></code></pre>
+<p>Rust's Command package needs array of strings, normal split would give me this</p>
+<pre class="giallo" style="color: #CDD6F4; background-color: #1E1E2E;" ><code data-lang="json"><span class="giallo-l"><span style="color: #9399B2;">[</span></span>
+<span class="giallo-l"><span style="color: #A6E3A1;">  &quot;wezterm&quot;</span><span style="color: #9399B2;">,</span></span>
+<span class="giallo-l"><span style="color: #A6E3A1;">  &quot;start&quot;</span><span style="color: #9399B2;">,</span></span>
+<span class="giallo-l"><span style="color: #A6E3A1;">  &quot;tmux&quot;</span><span style="color: #9399B2;">,</span></span>
+<span class="giallo-l"><span style="color: #A6E3A1;">  &quot;new&quot;</span><span style="color: #9399B2;">,</span></span>
+<span class="giallo-l"><span style="color: #A6E3A1;">  &quot;&#39;yay&quot;</span><span style="color: #9399B2;">,</span></span>
+<span class="giallo-l"><span style="color: #A6E3A1;">  &quot;-Suy&quot;</span><span style="color: #9399B2;">,</span></span>
+<span class="giallo-l"><span style="color: #A6E3A1;">  &quot;--noconfirm;&quot;</span><span style="color: #9399B2;">,</span></span>
+<span class="giallo-l"><span style="color: #A6E3A1;">  &quot;read&#39;&quot;</span></span>
+<span class="giallo-l"><span style="color: #9399B2;">]</span></span></code></pre>
+<p>See the issue?</p>
+<pre class="giallo" style="color: #CDD6F4; background-color: #1E1E2E;" ><code data-lang="plain"><span class="giallo-l"><span>..., &quot;&#39;yay&quot;, &quot;-Suy&quot;, &quot;--noconfirm;&quot;, &quot;read&#39;&quot;]</span></span>
+<span class="giallo-l"></span></code></pre>
+<p>Not good.
+Now I started to think along ... regexp?
+... Nope.
+There are many other complications doing a string processing like this.
+Fortunately, a little Google took
+me <a rel="external" href="https://users.rust-lang.org/t/splitting-string-on-white-space-but-preserving-quoted-substring/73366/2">to this page</a></p>
+<p>A helpful comment explained why regexp or split was not going to work,
+and the OP later posted his own solution (Good on him), that worked for me without any changes!
+Well, in the end, we both were trying to do the same thing.
+Heh.</p>
+<p>The solution gave me what I need! And now my program execution was running like a breeze.</p>
+<pre class="giallo" style="color: #CDD6F4; background-color: #1E1E2E;" ><code data-lang="json"><span class="giallo-l"><span style="color: #9399B2;">[</span></span>
+<span class="giallo-l"><span style="color: #A6E3A1;">  &quot;wezterm&quot;</span><span style="color: #9399B2;">,</span></span>
+<span class="giallo-l"><span style="color: #A6E3A1;">  &quot;start&quot;</span><span style="color: #9399B2;">,</span></span>
+<span class="giallo-l"><span style="color: #A6E3A1;">  &quot;tmux&quot;</span><span style="color: #9399B2;">,</span></span>
+<span class="giallo-l"><span style="color: #A6E3A1;">  &quot;new&quot;</span><span style="color: #9399B2;">,</span></span>
+<span class="giallo-l"><span style="color: #A6E3A1;">  &quot;&#39;yay -Suy --noconfirm; read&#39;&quot;</span></span>
+<span class="giallo-l"><span style="color: #9399B2;">]</span></span></code></pre>
+            </section>
+        </article>
+    </main>
+</div>
+
+
+
+            
+                
+            
+
+            
+        </div>
+
+        <div class="right-content">
+            
+    
+    
+
+        </div>
+        
+
+    </body>
+
+</html>

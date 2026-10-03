@@ -1,0 +1,294 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
+    <title> - Blog</title>
+    <link rel="self" type="application/atom+xml" href="https://tmahmood.github.io/blog/atom.xml"/>
+    <link rel="alternate" type="text/html" href="https://tmahmood.github.io/blog/"/>
+    <generator uri="https://www.getzola.org/">Zola</generator>
+    <updated>2026-04-02T00:00:00+00:00</updated>
+    <id>https://tmahmood.github.io/blog/atom.xml</id>
+    <entry xml:lang="en">
+        <title>More focus on my projects</title>
+        <published>2026-04-02T00:00:00+00:00</published>
+        <updated>2026-04-02T00:00:00+00:00</updated>
+        
+        <author>
+          <name>Unknown</name>
+        </author>
+        
+        <link rel="alternate" type="text/html" href="https://tmahmood.github.io/blog/2026-apr-02/"/>
+        <id>https://tmahmood.github.io/blog/2026-apr-02/</id>
+        
+        <content type="html" xml:base="https://tmahmood.github.io/blog/2026-apr-02/">&lt;h1 id=&quot;more-focus-on-my-projects&quot;&gt;More focus on my projects&lt;/h1&gt;
+&lt;p&gt;So, I am putting more focus on my projects last few months. Also learning, blender, pixel art, and sketching. 2026 has not been a good year for me. But I am looking forward to fixing it.&lt;/p&gt;
+&lt;h2 id=&quot;task-warrior-web&quot;&gt;Task warrior web&lt;/h2&gt;
+&lt;p&gt;Taskwarrior Web came along nicely, all the nitty clippy warnings are gone, more tests, and a lot of bug fixes. Looking forward to getting more features done in coming months.&lt;/p&gt;
+&lt;h2 id=&quot;journal-app&quot;&gt;Journal app&lt;/h2&gt;
+&lt;p&gt;Besides, I am working on a journal app, with task management and some other interesting concepts. I am really looking forward to get it up and running soon. Want to make it a product out of it.&lt;/p&gt;
+&lt;h2 id=&quot;rift&quot;&gt;RIFT&lt;/h2&gt;
+&lt;p&gt;A fast, simple, app launcher. Instead of discovering apps, it focuses on the ones you want to run as fast as possible. And it will have some really cool features.&lt;/p&gt;
+&lt;p&gt;Hopefully, things will get better soon. :)&lt;/p&gt;
+</content>
+        
+    </entry>
+    <entry xml:lang="en">
+        <title>Random things reminded me of my shiny new blog</title>
+        <published>2025-01-24T00:00:00+00:00</published>
+        <updated>2025-01-24T00:00:00+00:00</updated>
+        
+        <author>
+          <name>Unknown</name>
+        </author>
+        
+        <link rel="alternate" type="text/html" href="https://tmahmood.github.io/blog/2025-jan-24/"/>
+        <id>https://tmahmood.github.io/blog/2025-jan-24/</id>
+        
+        <content type="html" xml:base="https://tmahmood.github.io/blog/2025-jan-24/">&lt;h1 id=&quot;random-things-reminded-me-of-my-shiny-new-blog&quot;&gt;Random things reminded me of my shiny new blog&lt;/h1&gt;
+&lt;p&gt;Ah, well, last time was also 24th, but that&#39;s two months ago.
+It&#39;s not like I completely forgot about it,
+but no, it&#39;s just life, and its random habit of throwing unexpected things at you at the most random of times.
+But that&#39;s what life is, right?&lt;/p&gt;
+&lt;p&gt;So added a new habit, try to enjoy whatever life throws at you, and mark it down as a job done in your task app.
+Well, this genius idea was shared in an ADHD productivity post, and I think it&#39;s good!&lt;/p&gt;
+&lt;p&gt;So, where was I?
+I was writing a iced-rs application,
+and in the middle started working on a Tauri app for a client, which made me realize, tauri 2.0 is pretty nice!&lt;/p&gt;
+&lt;p&gt;But I also made some nice improvements in the iced-rs app I was working on.&lt;/p&gt;
+&lt;p&gt;Hm, I think I should be opening up the repo, and share so that people can roast me.
+I will write in details of the app in the next phase, but here&#39;s how it stands right now!&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;https://tmahmood.github.io/blog/2025-jan-24/static/images/2025-01-24_17-31.png&quot; alt=&quot;The latest version&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;So no group names, but colorful buttons! Yeah&lt;/p&gt;
+&lt;p&gt;Here&#39;s the config&lt;/p&gt;
+&lt;pre class=&quot;giallo&quot; style=&quot;color: #CDD6F4; background-color: #1E1E2E;&quot; &gt;&lt;code data-lang=&quot;json&quot;&gt;&lt;span class=&quot;giallo-l&quot;&gt;&lt;span style=&quot;color: #9399B2;&quot;&gt;{&lt;/span&gt;&lt;/span&gt;
+&lt;span class=&quot;giallo-l&quot;&gt;&lt;span style=&quot;color: #9399B2;&quot;&gt;  &amp;quot;&lt;/span&gt;&lt;span style=&quot;color: #89B4FA;&quot;&gt;group_font_size&lt;/span&gt;&lt;span style=&quot;color: #9399B2;&quot;&gt;&amp;quot;:&lt;/span&gt;&lt;span style=&quot;color: #FAB387;&quot;&gt; 20.0&lt;/span&gt;&lt;span style=&quot;color: #9399B2;&quot;&gt;,&lt;/span&gt;&lt;/span&gt;
+&lt;span class=&quot;giallo-l&quot;&gt;&lt;span style=&quot;color: #9399B2;&quot;&gt;  &amp;quot;&lt;/span&gt;&lt;span style=&quot;color: #89B4FA;&quot;&gt;label_font_size&lt;/span&gt;&lt;span style=&quot;color: #9399B2;&quot;&gt;&amp;quot;:&lt;/span&gt;&lt;span style=&quot;color: #FAB387;&quot;&gt; 16.0&lt;/span&gt;&lt;span style=&quot;color: #9399B2;&quot;&gt;,&lt;/span&gt;&lt;/span&gt;
+&lt;span class=&quot;giallo-l&quot;&gt;&lt;span style=&quot;color: #9399B2;&quot;&gt;  &amp;quot;&lt;/span&gt;&lt;span style=&quot;color: #89B4FA;&quot;&gt;button_width&lt;/span&gt;&lt;span style=&quot;color: #9399B2;&quot;&gt;&amp;quot;:&lt;/span&gt;&lt;span style=&quot;color: #FAB387;&quot;&gt; 200&lt;/span&gt;&lt;span style=&quot;color: #9399B2;&quot;&gt;,&lt;/span&gt;&lt;/span&gt;
+&lt;span class=&quot;giallo-l&quot;&gt;&lt;span style=&quot;color: #9399B2;&quot;&gt;  &amp;quot;&lt;/span&gt;&lt;span style=&quot;color: #89B4FA;&quot;&gt;button_height&lt;/span&gt;&lt;span style=&quot;color: #9399B2;&quot;&gt;&amp;quot;:&lt;/span&gt;&lt;span style=&quot;color: #FAB387;&quot;&gt; 80&lt;/span&gt;&lt;span style=&quot;color: #9399B2;&quot;&gt;,&lt;/span&gt;&lt;/span&gt;
+&lt;span class=&quot;giallo-l&quot;&gt;&lt;span style=&quot;color: #9399B2;&quot;&gt;  &amp;quot;&lt;/span&gt;&lt;span style=&quot;color: #89B4FA;&quot;&gt;buttons_par_row&lt;/span&gt;&lt;span style=&quot;color: #9399B2;&quot;&gt;&amp;quot;:&lt;/span&gt;&lt;span style=&quot;color: #FAB387;&quot;&gt; 5&lt;/span&gt;&lt;span style=&quot;color: #9399B2;&quot;&gt;,&lt;/span&gt;&lt;/span&gt;
+&lt;span class=&quot;giallo-l&quot;&gt;&lt;span style=&quot;color: #9399B2;&quot;&gt;  &amp;quot;&lt;/span&gt;&lt;span style=&quot;color: #89B4FA;&quot;&gt;shortcuts&lt;/span&gt;&lt;span style=&quot;color: #9399B2;&quot;&gt;&amp;quot;: [&lt;/span&gt;&lt;/span&gt;
+&lt;span class=&quot;giallo-l&quot;&gt;&lt;span style=&quot;color: #9399B2;&quot;&gt;    {&lt;/span&gt;&lt;/span&gt;
+&lt;span class=&quot;giallo-l&quot;&gt;&lt;span style=&quot;color: #9399B2;&quot;&gt;      &amp;quot;&lt;/span&gt;&lt;span style=&quot;color: #89B4FA;&quot;&gt;group&lt;/span&gt;&lt;span style=&quot;color: #9399B2;&quot;&gt;&amp;quot;:&lt;/span&gt;&lt;span style=&quot;color: #A6E3A1;&quot;&gt; &amp;quot;programs&amp;quot;&lt;/span&gt;&lt;span style=&quot;color: #9399B2;&quot;&gt;,&lt;/span&gt;&lt;/span&gt;
+&lt;span class=&quot;giallo-l&quot;&gt;&lt;span style=&quot;color: #9399B2;&quot;&gt;      &amp;quot;&lt;/span&gt;&lt;span style=&quot;color: #89B4FA;&quot;&gt;background&lt;/span&gt;&lt;span style=&quot;color: #9399B2;&quot;&gt;&amp;quot;:&lt;/span&gt;&lt;span style=&quot;color: #A6E3A1;&quot;&gt; &amp;quot;#3271ab&amp;quot;&lt;/span&gt;&lt;span style=&quot;color: #9399B2;&quot;&gt;,&lt;/span&gt;&lt;/span&gt;
+&lt;span class=&quot;giallo-l&quot;&gt;&lt;span style=&quot;color: #9399B2;&quot;&gt;      &amp;quot;&lt;/span&gt;&lt;span style=&quot;color: #89B4FA;&quot;&gt;text_color&lt;/span&gt;&lt;span style=&quot;color: #9399B2;&quot;&gt;&amp;quot;:&lt;/span&gt;&lt;span style=&quot;color: #A6E3A1;&quot;&gt; &amp;quot;#fff&amp;quot;&lt;/span&gt;&lt;span style=&quot;color: #9399B2;&quot;&gt;,&lt;/span&gt;&lt;/span&gt;
+&lt;span class=&quot;giallo-l&quot;&gt;&lt;span style=&quot;color: #9399B2;&quot;&gt;      &amp;quot;&lt;/span&gt;&lt;span style=&quot;color: #89B4FA;&quot;&gt;shortcuts&lt;/span&gt;&lt;span style=&quot;color: #9399B2;&quot;&gt;&amp;quot;: [&lt;/span&gt;&lt;/span&gt;
+&lt;span class=&quot;giallo-l&quot;&gt;&lt;span style=&quot;color: #9399B2;&quot;&gt;        {&lt;/span&gt;&lt;/span&gt;
+&lt;span class=&quot;giallo-l&quot;&gt;&lt;span style=&quot;color: #9399B2;&quot;&gt;          &amp;quot;&lt;/span&gt;&lt;span style=&quot;color: #89B4FA;&quot;&gt;name&lt;/span&gt;&lt;span style=&quot;color: #9399B2;&quot;&gt;&amp;quot;:&lt;/span&gt;&lt;span style=&quot;color: #A6E3A1;&quot;&gt; &amp;quot;VIM&amp;quot;&lt;/span&gt;&lt;span style=&quot;color: #9399B2;&quot;&gt;,&lt;/span&gt;&lt;/span&gt;
+&lt;span class=&quot;giallo-l&quot;&gt;&lt;span style=&quot;color: #9399B2;&quot;&gt;          &amp;quot;&lt;/span&gt;&lt;span style=&quot;color: #89B4FA;&quot;&gt;cmd&lt;/span&gt;&lt;span style=&quot;color: #9399B2;&quot;&gt;&amp;quot;:&lt;/span&gt;&lt;span style=&quot;color: #A6E3A1;&quot;&gt; &amp;quot;$TERMINAL start vim&amp;quot;&lt;/span&gt;&lt;span style=&quot;color: #9399B2;&quot;&gt;,&lt;/span&gt;&lt;/span&gt;
+&lt;span class=&quot;giallo-l&quot;&gt;&lt;span style=&quot;color: #9399B2;&quot;&gt;          &amp;quot;&lt;/span&gt;&lt;span style=&quot;color: #89B4FA;&quot;&gt;shortcut&lt;/span&gt;&lt;span style=&quot;color: #9399B2;&quot;&gt;&amp;quot;:&lt;/span&gt;&lt;span style=&quot;color: #A6E3A1;&quot;&gt; &amp;quot;v&amp;quot;&lt;/span&gt;&lt;/span&gt;
+&lt;span class=&quot;giallo-l&quot;&gt;&lt;span style=&quot;color: #9399B2;&quot;&gt;        }, {&lt;/span&gt;&lt;/span&gt;
+&lt;span class=&quot;giallo-l&quot;&gt;&lt;span style=&quot;color: #9399B2;&quot;&gt;          &amp;quot;&lt;/span&gt;&lt;span style=&quot;color: #89B4FA;&quot;&gt;name&lt;/span&gt;&lt;span style=&quot;color: #9399B2;&quot;&gt;&amp;quot;:&lt;/span&gt;&lt;span style=&quot;color: #A6E3A1;&quot;&gt; &amp;quot;Firefox&amp;quot;&lt;/span&gt;&lt;span style=&quot;color: #9399B2;&quot;&gt;,&lt;/span&gt;&lt;/span&gt;
+&lt;span class=&quot;giallo-l&quot;&gt;&lt;span style=&quot;color: #9399B2;&quot;&gt;          &amp;quot;&lt;/span&gt;&lt;span style=&quot;color: #89B4FA;&quot;&gt;cmd&lt;/span&gt;&lt;span style=&quot;color: #9399B2;&quot;&gt;&amp;quot;:&lt;/span&gt;&lt;span style=&quot;color: #A6E3A1;&quot;&gt; &amp;quot;firefox-nightly&amp;quot;&lt;/span&gt;&lt;span style=&quot;color: #9399B2;&quot;&gt;,&lt;/span&gt;&lt;/span&gt;
+&lt;span class=&quot;giallo-l&quot;&gt;&lt;span style=&quot;color: #9399B2;&quot;&gt;          &amp;quot;&lt;/span&gt;&lt;span style=&quot;color: #89B4FA;&quot;&gt;shortcut&lt;/span&gt;&lt;span style=&quot;color: #9399B2;&quot;&gt;&amp;quot;:&lt;/span&gt;&lt;span style=&quot;color: #A6E3A1;&quot;&gt; &amp;quot;f&amp;quot;&lt;/span&gt;&lt;/span&gt;
+&lt;span class=&quot;giallo-l&quot;&gt;&lt;span style=&quot;color: #9399B2;&quot;&gt;        }&lt;/span&gt;&lt;/span&gt;
+&lt;span class=&quot;giallo-l&quot;&gt;&lt;span style=&quot;color: #9399B2;&quot;&gt;      ]&lt;/span&gt;&lt;/span&gt;
+&lt;span class=&quot;giallo-l&quot;&gt;&lt;span style=&quot;color: #9399B2;&quot;&gt;    },&lt;/span&gt;&lt;/span&gt;
+&lt;span class=&quot;giallo-l&quot;&gt;&lt;span style=&quot;color: #9399B2;&quot;&gt;    {&lt;/span&gt;&lt;/span&gt;
+&lt;span class=&quot;giallo-l&quot;&gt;&lt;span style=&quot;color: #9399B2;&quot;&gt;      &amp;quot;&lt;/span&gt;&lt;span style=&quot;color: #89B4FA;&quot;&gt;group&lt;/span&gt;&lt;span style=&quot;color: #9399B2;&quot;&gt;&amp;quot;:&lt;/span&gt;&lt;span style=&quot;color: #A6E3A1;&quot;&gt; &amp;quot;folders&amp;quot;&lt;/span&gt;&lt;span style=&quot;color: #9399B2;&quot;&gt;,&lt;/span&gt;&lt;/span&gt;
+&lt;span class=&quot;giallo-l&quot;&gt;&lt;span style=&quot;color: #9399B2;&quot;&gt;      &amp;quot;&lt;/span&gt;&lt;span style=&quot;color: #89B4FA;&quot;&gt;background&lt;/span&gt;&lt;span style=&quot;color: #9399B2;&quot;&gt;&amp;quot;:&lt;/span&gt;&lt;span style=&quot;color: #A6E3A1;&quot;&gt; &amp;quot;#f1aa41&amp;quot;&lt;/span&gt;&lt;span style=&quot;color: #9399B2;&quot;&gt;,&lt;/span&gt;&lt;/span&gt;
+&lt;span class=&quot;giallo-l&quot;&gt;&lt;span style=&quot;color: #9399B2;&quot;&gt;      &amp;quot;&lt;/span&gt;&lt;span style=&quot;color: #89B4FA;&quot;&gt;text_color&lt;/span&gt;&lt;span style=&quot;color: #9399B2;&quot;&gt;&amp;quot;:&lt;/span&gt;&lt;span style=&quot;color: #A6E3A1;&quot;&gt; &amp;quot;#444&amp;quot;&lt;/span&gt;&lt;span style=&quot;color: #9399B2;&quot;&gt;,&lt;/span&gt;&lt;/span&gt;
+&lt;span class=&quot;giallo-l&quot;&gt;&lt;span style=&quot;color: #9399B2;&quot;&gt;      &amp;quot;&lt;/span&gt;&lt;span style=&quot;color: #89B4FA;&quot;&gt;shortcuts&lt;/span&gt;&lt;span style=&quot;color: #9399B2;&quot;&gt;&amp;quot;: [&lt;/span&gt;&lt;/span&gt;
+&lt;span class=&quot;giallo-l&quot;&gt;&lt;span style=&quot;color: #9399B2;&quot;&gt;        {&lt;/span&gt;&lt;/span&gt;
+&lt;span class=&quot;giallo-l&quot;&gt;&lt;span style=&quot;color: #9399B2;&quot;&gt;          &amp;quot;&lt;/span&gt;&lt;span style=&quot;color: #89B4FA;&quot;&gt;name&lt;/span&gt;&lt;span style=&quot;color: #9399B2;&quot;&gt;&amp;quot;:&lt;/span&gt;&lt;span style=&quot;color: #A6E3A1;&quot;&gt; &amp;quot;Home&amp;quot;&lt;/span&gt;&lt;span style=&quot;color: #9399B2;&quot;&gt;,&lt;/span&gt;&lt;/span&gt;
+&lt;span class=&quot;giallo-l&quot;&gt;&lt;span style=&quot;color: #9399B2;&quot;&gt;          &amp;quot;&lt;/span&gt;&lt;span style=&quot;color: #89B4FA;&quot;&gt;cmd&lt;/span&gt;&lt;span style=&quot;color: #9399B2;&quot;&gt;&amp;quot;:&lt;/span&gt;&lt;span style=&quot;color: #A6E3A1;&quot;&gt; &amp;quot;xdg-open ~&amp;quot;&lt;/span&gt;&lt;span style=&quot;color: #9399B2;&quot;&gt;,&lt;/span&gt;&lt;/span&gt;
+&lt;span class=&quot;giallo-l&quot;&gt;&lt;span style=&quot;color: #9399B2;&quot;&gt;          &amp;quot;&lt;/span&gt;&lt;span style=&quot;color: #89B4FA;&quot;&gt;shortcut&lt;/span&gt;&lt;span style=&quot;color: #9399B2;&quot;&gt;&amp;quot;:&lt;/span&gt;&lt;span style=&quot;color: #A6E3A1;&quot;&gt; &amp;quot;h&amp;quot;&lt;/span&gt;&lt;/span&gt;
+&lt;span class=&quot;giallo-l&quot;&gt;&lt;span style=&quot;color: #9399B2;&quot;&gt;        },&lt;/span&gt;&lt;/span&gt;
+&lt;span class=&quot;giallo-l&quot;&gt;&lt;span style=&quot;color: #9399B2;&quot;&gt;        {&lt;/span&gt;&lt;/span&gt;
+&lt;span class=&quot;giallo-l&quot;&gt;&lt;span style=&quot;color: #9399B2;&quot;&gt;          &amp;quot;&lt;/span&gt;&lt;span style=&quot;color: #89B4FA;&quot;&gt;name&lt;/span&gt;&lt;span style=&quot;color: #9399B2;&quot;&gt;&amp;quot;:&lt;/span&gt;&lt;span style=&quot;color: #A6E3A1;&quot;&gt; &amp;quot;Downloads&amp;quot;&lt;/span&gt;&lt;span style=&quot;color: #9399B2;&quot;&gt;,&lt;/span&gt;&lt;/span&gt;
+&lt;span class=&quot;giallo-l&quot;&gt;&lt;span style=&quot;color: #9399B2;&quot;&gt;          &amp;quot;&lt;/span&gt;&lt;span style=&quot;color: #89B4FA;&quot;&gt;cmd&lt;/span&gt;&lt;span style=&quot;color: #9399B2;&quot;&gt;&amp;quot;:&lt;/span&gt;&lt;span style=&quot;color: #A6E3A1;&quot;&gt; &amp;quot;xdg-open ~/Downloads&amp;quot;&lt;/span&gt;&lt;span style=&quot;color: #9399B2;&quot;&gt;,&lt;/span&gt;&lt;/span&gt;
+&lt;span class=&quot;giallo-l&quot;&gt;&lt;span style=&quot;color: #9399B2;&quot;&gt;          &amp;quot;&lt;/span&gt;&lt;span style=&quot;color: #89B4FA;&quot;&gt;shortcut&lt;/span&gt;&lt;span style=&quot;color: #9399B2;&quot;&gt;&amp;quot;:&lt;/span&gt;&lt;span style=&quot;color: #A6E3A1;&quot;&gt; &amp;quot;d&amp;quot;&lt;/span&gt;&lt;/span&gt;
+&lt;span class=&quot;giallo-l&quot;&gt;&lt;span style=&quot;color: #9399B2;&quot;&gt;        },&lt;/span&gt;&lt;/span&gt;
+&lt;span class=&quot;giallo-l&quot;&gt;&lt;span style=&quot;color: #9399B2;&quot;&gt;        {&lt;/span&gt;&lt;/span&gt;
+&lt;span class=&quot;giallo-l&quot;&gt;&lt;span style=&quot;color: #9399B2;&quot;&gt;          &amp;quot;&lt;/span&gt;&lt;span style=&quot;color: #89B4FA;&quot;&gt;name&lt;/span&gt;&lt;span style=&quot;color: #9399B2;&quot;&gt;&amp;quot;:&lt;/span&gt;&lt;span style=&quot;color: #A6E3A1;&quot;&gt; &amp;quot;Projects&amp;quot;&lt;/span&gt;&lt;span style=&quot;color: #9399B2;&quot;&gt;,&lt;/span&gt;&lt;/span&gt;
+&lt;span class=&quot;giallo-l&quot;&gt;&lt;span style=&quot;color: #9399B2;&quot;&gt;          &amp;quot;&lt;/span&gt;&lt;span style=&quot;color: #89B4FA;&quot;&gt;cmd&lt;/span&gt;&lt;span style=&quot;color: #9399B2;&quot;&gt;&amp;quot;:&lt;/span&gt;&lt;span style=&quot;color: #A6E3A1;&quot;&gt; &amp;quot;xdg-open ~/Projects&amp;quot;&lt;/span&gt;&lt;span style=&quot;color: #9399B2;&quot;&gt;,&lt;/span&gt;&lt;/span&gt;
+&lt;span class=&quot;giallo-l&quot;&gt;&lt;span style=&quot;color: #9399B2;&quot;&gt;          &amp;quot;&lt;/span&gt;&lt;span style=&quot;color: #89B4FA;&quot;&gt;shortcut&lt;/span&gt;&lt;span style=&quot;color: #9399B2;&quot;&gt;&amp;quot;:&lt;/span&gt;&lt;span style=&quot;color: #A6E3A1;&quot;&gt; &amp;quot;p&amp;quot;&lt;/span&gt;&lt;/span&gt;
+&lt;span class=&quot;giallo-l&quot;&gt;&lt;span style=&quot;color: #9399B2;&quot;&gt;        }&lt;/span&gt;&lt;/span&gt;
+&lt;span class=&quot;giallo-l&quot;&gt;&lt;span style=&quot;color: #9399B2;&quot;&gt;      ]&lt;/span&gt;&lt;/span&gt;
+&lt;span class=&quot;giallo-l&quot;&gt;&lt;span style=&quot;color: #9399B2;&quot;&gt;    },&lt;/span&gt;&lt;/span&gt;
+&lt;span class=&quot;giallo-l&quot;&gt;&lt;span style=&quot;color: #9399B2;&quot;&gt;    {&lt;/span&gt;&lt;/span&gt;
+&lt;span class=&quot;giallo-l&quot;&gt;&lt;span style=&quot;color: #9399B2;&quot;&gt;      &amp;quot;&lt;/span&gt;&lt;span style=&quot;color: #89B4FA;&quot;&gt;group&lt;/span&gt;&lt;span style=&quot;color: #9399B2;&quot;&gt;&amp;quot;:&lt;/span&gt;&lt;span style=&quot;color: #A6E3A1;&quot;&gt; &amp;quot;cli&amp;quot;&lt;/span&gt;&lt;span style=&quot;color: #9399B2;&quot;&gt;,&lt;/span&gt;&lt;/span&gt;
+&lt;span class=&quot;giallo-l&quot;&gt;&lt;span style=&quot;color: #9399B2;&quot;&gt;      &amp;quot;&lt;/span&gt;&lt;span style=&quot;color: #89B4FA;&quot;&gt;background&lt;/span&gt;&lt;span style=&quot;color: #9399B2;&quot;&gt;&amp;quot;:&lt;/span&gt;&lt;span style=&quot;color: #A6E3A1;&quot;&gt; &amp;quot;#2f3852&amp;quot;&lt;/span&gt;&lt;span style=&quot;color: #9399B2;&quot;&gt;,&lt;/span&gt;&lt;/span&gt;
+&lt;span class=&quot;giallo-l&quot;&gt;&lt;span style=&quot;color: #9399B2;&quot;&gt;      &amp;quot;&lt;/span&gt;&lt;span style=&quot;color: #89B4FA;&quot;&gt;text_color&lt;/span&gt;&lt;span style=&quot;color: #9399B2;&quot;&gt;&amp;quot;:&lt;/span&gt;&lt;span style=&quot;color: #A6E3A1;&quot;&gt; &amp;quot;#AAA&amp;quot;&lt;/span&gt;&lt;span style=&quot;color: #9399B2;&quot;&gt;,&lt;/span&gt;&lt;/span&gt;
+&lt;span class=&quot;giallo-l&quot;&gt;&lt;span style=&quot;color: #9399B2;&quot;&gt;      &amp;quot;&lt;/span&gt;&lt;span style=&quot;color: #89B4FA;&quot;&gt;shortcuts&lt;/span&gt;&lt;span style=&quot;color: #9399B2;&quot;&gt;&amp;quot;: [&lt;/span&gt;&lt;/span&gt;
+&lt;span class=&quot;giallo-l&quot;&gt;&lt;span style=&quot;color: #9399B2;&quot;&gt;        {&lt;/span&gt;&lt;/span&gt;
+&lt;span class=&quot;giallo-l&quot;&gt;&lt;span style=&quot;color: #9399B2;&quot;&gt;          &amp;quot;&lt;/span&gt;&lt;span style=&quot;color: #89B4FA;&quot;&gt;name&lt;/span&gt;&lt;span style=&quot;color: #9399B2;&quot;&gt;&amp;quot;:&lt;/span&gt;&lt;span style=&quot;color: #A6E3A1;&quot;&gt; &amp;quot;Upd&amp;quot;&lt;/span&gt;&lt;span style=&quot;color: #9399B2;&quot;&gt;,&lt;/span&gt;&lt;/span&gt;
+&lt;span class=&quot;giallo-l&quot;&gt;&lt;span style=&quot;color: #9399B2;&quot;&gt;          &amp;quot;&lt;/span&gt;&lt;span style=&quot;color: #89B4FA;&quot;&gt;cmd&lt;/span&gt;&lt;span style=&quot;color: #9399B2;&quot;&gt;&amp;quot;:&lt;/span&gt;&lt;span style=&quot;color: #A6E3A1;&quot;&gt; &amp;quot;$TERMINAL start tmux new &amp;#39;yay -Suy --noconfirm; read&amp;#39;&amp;quot;&lt;/span&gt;&lt;span style=&quot;color: #9399B2;&quot;&gt;,&lt;/span&gt;&lt;/span&gt;
+&lt;span class=&quot;giallo-l&quot;&gt;&lt;span style=&quot;color: #9399B2;&quot;&gt;          &amp;quot;&lt;/span&gt;&lt;span style=&quot;color: #89B4FA;&quot;&gt;shortcut&lt;/span&gt;&lt;span style=&quot;color: #9399B2;&quot;&gt;&amp;quot;:&lt;/span&gt;&lt;span style=&quot;color: #A6E3A1;&quot;&gt; &amp;quot;s&amp;quot;&lt;/span&gt;&lt;/span&gt;
+&lt;span class=&quot;giallo-l&quot;&gt;&lt;span style=&quot;color: #9399B2;&quot;&gt;        }, {&lt;/span&gt;&lt;/span&gt;
+&lt;span class=&quot;giallo-l&quot;&gt;&lt;span style=&quot;color: #9399B2;&quot;&gt;          &amp;quot;&lt;/span&gt;&lt;span style=&quot;color: #89B4FA;&quot;&gt;name&lt;/span&gt;&lt;span style=&quot;color: #9399B2;&quot;&gt;&amp;quot;:&lt;/span&gt;&lt;span style=&quot;color: #A6E3A1;&quot;&gt; &amp;quot;broot&amp;quot;&lt;/span&gt;&lt;span style=&quot;color: #9399B2;&quot;&gt;,&lt;/span&gt;&lt;/span&gt;
+&lt;span class=&quot;giallo-l&quot;&gt;&lt;span style=&quot;color: #9399B2;&quot;&gt;          &amp;quot;&lt;/span&gt;&lt;span style=&quot;color: #89B4FA;&quot;&gt;cmd&lt;/span&gt;&lt;span style=&quot;color: #9399B2;&quot;&gt;&amp;quot;:&lt;/span&gt;&lt;span style=&quot;color: #A6E3A1;&quot;&gt; &amp;quot;$TERMINAL start broot&amp;quot;&lt;/span&gt;&lt;span style=&quot;color: #9399B2;&quot;&gt;,&lt;/span&gt;&lt;/span&gt;
+&lt;span class=&quot;giallo-l&quot;&gt;&lt;span style=&quot;color: #9399B2;&quot;&gt;          &amp;quot;&lt;/span&gt;&lt;span style=&quot;color: #89B4FA;&quot;&gt;shortcut&lt;/span&gt;&lt;span style=&quot;color: #9399B2;&quot;&gt;&amp;quot;:&lt;/span&gt;&lt;span style=&quot;color: #A6E3A1;&quot;&gt; &amp;quot;b&amp;quot;&lt;/span&gt;&lt;/span&gt;
+&lt;span class=&quot;giallo-l&quot;&gt;&lt;span style=&quot;color: #9399B2;&quot;&gt;        }&lt;/span&gt;&lt;/span&gt;
+&lt;span class=&quot;giallo-l&quot;&gt;&lt;span style=&quot;color: #9399B2;&quot;&gt;      ]&lt;/span&gt;&lt;/span&gt;
+&lt;span class=&quot;giallo-l&quot;&gt;&lt;span style=&quot;color: #9399B2;&quot;&gt;    }&lt;/span&gt;&lt;/span&gt;
+&lt;span class=&quot;giallo-l&quot;&gt;&lt;span style=&quot;color: #9399B2;&quot;&gt;  ]&lt;/span&gt;&lt;/span&gt;
+&lt;span class=&quot;giallo-l&quot;&gt;&lt;span style=&quot;color: #9399B2;&quot;&gt;}&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;Lot of interesting things here!&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;Groups have different colors.&lt;/li&gt;
+&lt;li&gt;No group names&lt;/li&gt;
+&lt;li&gt;Setting font size, button size, and buttons per row can be set&lt;/li&gt;
+&lt;li&gt;And most interesting is support for shell magic variables, like (&lt;code&gt;$HOME&lt;/code&gt;, &lt;code&gt;$TERMINAL&lt;/code&gt;, &lt;code&gt;~&lt;/code&gt;, etc.)!&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;So now the program will launch using the preferred terminal, use the default file manager to open the folders, etc&lt;/p&gt;
+&lt;p&gt;Awesome!&lt;/p&gt;
+&lt;p&gt;And no more checking configuration files every 2 seconds, because the program exits after launching.
+It is now a run, and bye program, instead of staying in memory doing nothing.&lt;/p&gt;
+&lt;p&gt;Forgot what else I want to do in this, but I will get back to it,
+after I have made progress on my other pet project.&lt;/p&gt;
+</content>
+        
+    </entry>
+    <entry xml:lang="en">
+        <title>Going Back to iced after my Tauri Journey</title>
+        <published>2024-11-24T00:00:00+00:00</published>
+        <updated>2024-11-24T00:00:00+00:00</updated>
+        
+        <author>
+          <name>Unknown</name>
+        </author>
+        
+        <link rel="alternate" type="text/html" href="https://tmahmood.github.io/blog/2024-nov-24/"/>
+        <id>https://tmahmood.github.io/blog/2024-nov-24/</id>
+        
+        <content type="html" xml:base="https://tmahmood.github.io/blog/2024-nov-24/">&lt;h1 id=&quot;going-back-to-iced-after-my-tauri-journey&quot;&gt;Going back to iced, after my tauri journey&lt;/h1&gt;
+&lt;p&gt;Tauri is nice, it&#39;s really easy to get started, but I feel,
+iced deserves some attention, I have used it for a client in a previous project, and it worked pretty well.
+It worked on both Linux and Windows, without any extra hassle.
+Theming was a bit challenging, but I stole code from AirShipper and made my own.&lt;/p&gt;
+&lt;p&gt;I switched to Tauri then because widget support is so much better, as it was simply HTML elements.&lt;/p&gt;
+&lt;p&gt;But now I am working on a small application,
+which is unlikely to have any complex user interactions, so, I am giving iced another try.&lt;/p&gt;
+&lt;p&gt;So, here&#39;s the first week of that journey!&lt;/p&gt;
+&lt;h2 id=&quot;day-one&quot;&gt;Day One&lt;/h2&gt;
+&lt;p&gt;Getting started was a bit tricky, a lot of changes that have broken my previous app, but the changes seem to be good
+changes. But my theme adapted from AirShipper was working anymore. I took a look at the AirShipper repo, and it seems
+like it has not updated since. Oh well,&lt;/p&gt;
+&lt;p&gt;Examples were easy enough to get back to the flow.
+Guide is incomplete, have not seen anywhere mentioning which features to get started.
+But adding iced crate was enough to get started.&lt;/p&gt;
+&lt;p&gt;Then took one of the default themes and made small changes, which, unfortunately, is not centralized. Will have to put it in a const and apply it on all widgets, to keep the UI consistent. Maybe a helper function to create widgets using the preferred settings? Will have to come to that later, as these are just visuals. For now, I got a tolerable theme for my new application.&lt;/p&gt;
+&lt;p&gt;So! Back to the application. What am I building? An application launcher. This is not about discovering applications,
+but about running the app that I need right now, fast.
+We can do it using Desktop&#39;s keyboard shortcut feature, yes.
+But I have few issues with this, one if I change the DE to another one,
+I will have to map shortcuts for another DE again, moreover, backing up keyboard shortcuts is another pain point.
+And every DE have some predefined shortcuts, which might conflict with the one I have.
+Now changing the DE shortcut, would be another pain point.
+Too much work!
+So, this launcher wants to solve that.
+I have to allocate only one global keyboard shortcut, that will launch the app.
+Once the app is running, it will present the list of keyboard shortcuts that I can use,
+which can be all the characters available in keyboard, AND more with modifier key combinations.
+Now instead of getting limited to some keys, I have any keys I want to have, except for the Meta key of course :-)&lt;/p&gt;
+&lt;p&gt;So, with DE level shortcuts, to run terminal I would press &lt;code&gt;Meta + Enter&lt;/code&gt;,
+but with the launcher it will be &lt;code&gt;Meta+L&lt;/code&gt; (say I&#39;ve set &lt;code&gt;Meta+L&lt;/code&gt; as my launcher&#39;s shortcut),
+once the launcher opens I press &lt;code&gt;Enter&lt;/code&gt;, and the terminal opens.
+It&#39;s unlikely I am going to change my terminal shortcut, this is just an example.&lt;/p&gt;
+&lt;p&gt;But yes, it adds an extra step, instead of direct invocation,
+but now I have option to run more things on one additional step.
+I think it&#39;s a good trade off.
+I use similar method in i3 to launch my regular applications.
+After a while it becomes a muscle memory.&lt;/p&gt;
+&lt;p&gt;How to proceed about it? Well, the first thing is how to store the configuration?
+As usual, Serde + JSON won this round.
+Being so simple and straightforward to get on with.
+Now, create the configuration file, and put the configuration they way I want to, which is simply this:&lt;/p&gt;
+&lt;pre class=&quot;giallo&quot; style=&quot;color: #CDD6F4; background-color: #1E1E2E;&quot; &gt;&lt;code data-lang=&quot;json&quot;&gt;&lt;span class=&quot;giallo-l&quot;&gt;&lt;/span&gt;
+&lt;span class=&quot;giallo-l&quot;&gt;&lt;span style=&quot;color: #9399B2;&quot;&gt;[&lt;/span&gt;&lt;/span&gt;
+&lt;span class=&quot;giallo-l&quot;&gt;&lt;span style=&quot;color: #9399B2;&quot;&gt;  {&lt;/span&gt;&lt;/span&gt;
+&lt;span class=&quot;giallo-l&quot;&gt;&lt;span style=&quot;color: #9399B2;&quot;&gt;    &amp;quot;&lt;/span&gt;&lt;span style=&quot;color: #89B4FA;&quot;&gt;group&lt;/span&gt;&lt;span style=&quot;color: #9399B2;&quot;&gt;&amp;quot;:&lt;/span&gt;&lt;span style=&quot;color: #A6E3A1;&quot;&gt; &amp;quot;programs&amp;quot;&lt;/span&gt;&lt;span style=&quot;color: #9399B2;&quot;&gt;,&lt;/span&gt;&lt;/span&gt;
+&lt;span class=&quot;giallo-l&quot;&gt;&lt;span style=&quot;color: #9399B2;&quot;&gt;    &amp;quot;&lt;/span&gt;&lt;span style=&quot;color: #89B4FA;&quot;&gt;shortcuts&lt;/span&gt;&lt;span style=&quot;color: #9399B2;&quot;&gt;&amp;quot;: [&lt;/span&gt;&lt;/span&gt;
+&lt;span class=&quot;giallo-l&quot;&gt;&lt;span style=&quot;color: #9399B2;&quot;&gt;      {&lt;/span&gt;&lt;/span&gt;
+&lt;span class=&quot;giallo-l&quot;&gt;&lt;span style=&quot;color: #9399B2;&quot;&gt;        &amp;quot;&lt;/span&gt;&lt;span style=&quot;color: #89B4FA;&quot;&gt;name&lt;/span&gt;&lt;span style=&quot;color: #9399B2;&quot;&gt;&amp;quot;:&lt;/span&gt;&lt;span style=&quot;color: #A6E3A1;&quot;&gt; &amp;quot;VIM&amp;quot;&lt;/span&gt;&lt;span style=&quot;color: #9399B2;&quot;&gt;,&lt;/span&gt;&lt;/span&gt;
+&lt;span class=&quot;giallo-l&quot;&gt;&lt;span style=&quot;color: #9399B2;&quot;&gt;        &amp;quot;&lt;/span&gt;&lt;span style=&quot;color: #89B4FA;&quot;&gt;cmd&lt;/span&gt;&lt;span style=&quot;color: #9399B2;&quot;&gt;&amp;quot;:&lt;/span&gt;&lt;span style=&quot;color: #A6E3A1;&quot;&gt; &amp;quot;wezterm start vim&amp;quot;&lt;/span&gt;&lt;span style=&quot;color: #9399B2;&quot;&gt;,&lt;/span&gt;&lt;/span&gt;
+&lt;span class=&quot;giallo-l&quot;&gt;&lt;span style=&quot;color: #9399B2;&quot;&gt;        &amp;quot;&lt;/span&gt;&lt;span style=&quot;color: #89B4FA;&quot;&gt;shortcut&lt;/span&gt;&lt;span style=&quot;color: #9399B2;&quot;&gt;&amp;quot;:&lt;/span&gt;&lt;span style=&quot;color: #A6E3A1;&quot;&gt; &amp;quot;v&amp;quot;&lt;/span&gt;&lt;span style=&quot;color: #9399B2;&quot;&gt;,&lt;/span&gt;&lt;/span&gt;
+&lt;span class=&quot;giallo-l&quot;&gt;&lt;span style=&quot;color: #9399B2;&quot;&gt;        &amp;quot;&lt;/span&gt;&lt;span style=&quot;color: #89B4FA;&quot;&gt;icon&lt;/span&gt;&lt;span style=&quot;color: #9399B2;&quot;&gt;&amp;quot;:&lt;/span&gt;&lt;span style=&quot;color: #A6E3A1;&quot;&gt; &amp;quot;.default_icon&amp;quot;&lt;/span&gt;&lt;/span&gt;
+&lt;span class=&quot;giallo-l&quot;&gt;&lt;span style=&quot;color: #9399B2;&quot;&gt;      },&lt;/span&gt;&lt;/span&gt;
+&lt;span class=&quot;giallo-l&quot;&gt;&lt;span style=&quot;color: #9399B2;&quot;&gt;      {&lt;/span&gt;&lt;/span&gt;
+&lt;span class=&quot;giallo-l&quot;&gt;&lt;span style=&quot;color: #9399B2;&quot;&gt;        &amp;quot;&lt;/span&gt;&lt;span style=&quot;color: #89B4FA;&quot;&gt;name&lt;/span&gt;&lt;span style=&quot;color: #9399B2;&quot;&gt;&amp;quot;:&lt;/span&gt;&lt;span style=&quot;color: #A6E3A1;&quot;&gt; &amp;quot;blender&amp;quot;&lt;/span&gt;&lt;span style=&quot;color: #9399B2;&quot;&gt;,&lt;/span&gt;&lt;/span&gt;
+&lt;span class=&quot;giallo-l&quot;&gt;&lt;span style=&quot;color: #9399B2;&quot;&gt;        &amp;quot;&lt;/span&gt;&lt;span style=&quot;color: #89B4FA;&quot;&gt;cmd&lt;/span&gt;&lt;span style=&quot;color: #9399B2;&quot;&gt;&amp;quot;:&lt;/span&gt;&lt;span style=&quot;color: #A6E3A1;&quot;&gt; &amp;quot;blender&amp;quot;&lt;/span&gt;&lt;span style=&quot;color: #9399B2;&quot;&gt;,&lt;/span&gt;&lt;/span&gt;
+&lt;span class=&quot;giallo-l&quot;&gt;&lt;span style=&quot;color: #9399B2;&quot;&gt;        &amp;quot;&lt;/span&gt;&lt;span style=&quot;color: #89B4FA;&quot;&gt;shortcut&lt;/span&gt;&lt;span style=&quot;color: #9399B2;&quot;&gt;&amp;quot;:&lt;/span&gt;&lt;span style=&quot;color: #A6E3A1;&quot;&gt; &amp;quot;shift+b&amp;quot;&lt;/span&gt;&lt;span style=&quot;color: #9399B2;&quot;&gt;,&lt;/span&gt;&lt;/span&gt;
+&lt;span class=&quot;giallo-l&quot;&gt;&lt;span style=&quot;color: #9399B2;&quot;&gt;        &amp;quot;&lt;/span&gt;&lt;span style=&quot;color: #89B4FA;&quot;&gt;icon&lt;/span&gt;&lt;span style=&quot;color: #9399B2;&quot;&gt;&amp;quot;:&lt;/span&gt;&lt;span style=&quot;color: #A6E3A1;&quot;&gt; &amp;quot;.default_icon&amp;quot;&lt;/span&gt;&lt;/span&gt;
+&lt;span class=&quot;giallo-l&quot;&gt;&lt;span style=&quot;color: #9399B2;&quot;&gt;      }&lt;/span&gt;&lt;/span&gt;
+&lt;span class=&quot;giallo-l&quot;&gt;&lt;span style=&quot;color: #9399B2;&quot;&gt;    ]&lt;/span&gt;&lt;/span&gt;
+&lt;span class=&quot;giallo-l&quot;&gt;&lt;span style=&quot;color: #9399B2;&quot;&gt;  },&lt;/span&gt;&lt;/span&gt;
+&lt;span class=&quot;giallo-l&quot;&gt;&lt;span style=&quot;color: #9399B2;&quot;&gt;  {&lt;/span&gt;&lt;/span&gt;
+&lt;span class=&quot;giallo-l&quot;&gt;&lt;span style=&quot;color: #9399B2;&quot;&gt;    &amp;quot;&lt;/span&gt;&lt;span style=&quot;color: #89B4FA;&quot;&gt;group&lt;/span&gt;&lt;span style=&quot;color: #9399B2;&quot;&gt;&amp;quot;:&lt;/span&gt;&lt;span style=&quot;color: #A6E3A1;&quot;&gt; &amp;quot;Folders&amp;quot;&lt;/span&gt;&lt;span style=&quot;color: #9399B2;&quot;&gt;,&lt;/span&gt;&lt;/span&gt;
+&lt;span class=&quot;giallo-l&quot;&gt;&lt;span style=&quot;color: #9399B2;&quot;&gt;    &amp;quot;&lt;/span&gt;&lt;span style=&quot;color: #89B4FA;&quot;&gt;shortcuts&lt;/span&gt;&lt;span style=&quot;color: #9399B2;&quot;&gt;&amp;quot;: [&lt;/span&gt;&lt;/span&gt;
+&lt;span class=&quot;giallo-l&quot;&gt;&lt;span style=&quot;color: #9399B2;&quot;&gt;      {&lt;/span&gt;&lt;/span&gt;
+&lt;span class=&quot;giallo-l&quot;&gt;&lt;span style=&quot;color: #9399B2;&quot;&gt;        &amp;quot;&lt;/span&gt;&lt;span style=&quot;color: #89B4FA;&quot;&gt;name&lt;/span&gt;&lt;span style=&quot;color: #9399B2;&quot;&gt;&amp;quot;:&lt;/span&gt;&lt;span style=&quot;color: #A6E3A1;&quot;&gt; &amp;quot;Home&amp;quot;&lt;/span&gt;&lt;span style=&quot;color: #9399B2;&quot;&gt;,&lt;/span&gt;&lt;/span&gt;
+&lt;span class=&quot;giallo-l&quot;&gt;&lt;span style=&quot;color: #9399B2;&quot;&gt;        &amp;quot;&lt;/span&gt;&lt;span style=&quot;color: #89B4FA;&quot;&gt;cmd&lt;/span&gt;&lt;span style=&quot;color: #9399B2;&quot;&gt;&amp;quot;:&lt;/span&gt;&lt;span style=&quot;color: #A6E3A1;&quot;&gt; &amp;quot;nautilus&amp;quot;&lt;/span&gt;&lt;span style=&quot;color: #9399B2;&quot;&gt;,&lt;/span&gt;&lt;/span&gt;
+&lt;span class=&quot;giallo-l&quot;&gt;&lt;span style=&quot;color: #9399B2;&quot;&gt;        &amp;quot;&lt;/span&gt;&lt;span style=&quot;color: #89B4FA;&quot;&gt;shortcut&lt;/span&gt;&lt;span style=&quot;color: #9399B2;&quot;&gt;&amp;quot;:&lt;/span&gt;&lt;span style=&quot;color: #A6E3A1;&quot;&gt; &amp;quot;f&amp;quot;&lt;/span&gt;&lt;span style=&quot;color: #9399B2;&quot;&gt;,&lt;/span&gt;&lt;/span&gt;
+&lt;span class=&quot;giallo-l&quot;&gt;&lt;span style=&quot;color: #9399B2;&quot;&gt;        &amp;quot;&lt;/span&gt;&lt;span style=&quot;color: #89B4FA;&quot;&gt;icon&lt;/span&gt;&lt;span style=&quot;color: #9399B2;&quot;&gt;&amp;quot;:&lt;/span&gt;&lt;span style=&quot;color: #A6E3A1;&quot;&gt; &amp;quot;.default_icon&amp;quot;&lt;/span&gt;&lt;/span&gt;
+&lt;span class=&quot;giallo-l&quot;&gt;&lt;span style=&quot;color: #9399B2;&quot;&gt;      },&lt;/span&gt;&lt;/span&gt;
+&lt;span class=&quot;giallo-l&quot;&gt;&lt;span style=&quot;color: #9399B2;&quot;&gt;      {&lt;/span&gt;&lt;/span&gt;
+&lt;span class=&quot;giallo-l&quot;&gt;&lt;span style=&quot;color: #9399B2;&quot;&gt;        &amp;quot;&lt;/span&gt;&lt;span style=&quot;color: #89B4FA;&quot;&gt;name&lt;/span&gt;&lt;span style=&quot;color: #9399B2;&quot;&gt;&amp;quot;:&lt;/span&gt;&lt;span style=&quot;color: #A6E3A1;&quot;&gt; &amp;quot;Downloads&amp;quot;&lt;/span&gt;&lt;span style=&quot;color: #9399B2;&quot;&gt;,&lt;/span&gt;&lt;/span&gt;
+&lt;span class=&quot;giallo-l&quot;&gt;&lt;span style=&quot;color: #9399B2;&quot;&gt;        &amp;quot;&lt;/span&gt;&lt;span style=&quot;color: #89B4FA;&quot;&gt;cmd&lt;/span&gt;&lt;span style=&quot;color: #9399B2;&quot;&gt;&amp;quot;:&lt;/span&gt;&lt;span style=&quot;color: #A6E3A1;&quot;&gt; &amp;quot;nautilus /home/mahmood/Downloads&amp;quot;&lt;/span&gt;&lt;span style=&quot;color: #9399B2;&quot;&gt;,&lt;/span&gt;&lt;/span&gt;
+&lt;span class=&quot;giallo-l&quot;&gt;&lt;span style=&quot;color: #9399B2;&quot;&gt;        &amp;quot;&lt;/span&gt;&lt;span style=&quot;color: #89B4FA;&quot;&gt;shortcut&lt;/span&gt;&lt;span style=&quot;color: #9399B2;&quot;&gt;&amp;quot;:&lt;/span&gt;&lt;span style=&quot;color: #A6E3A1;&quot;&gt; &amp;quot;d&amp;quot;&lt;/span&gt;&lt;span style=&quot;color: #9399B2;&quot;&gt;,&lt;/span&gt;&lt;/span&gt;
+&lt;span class=&quot;giallo-l&quot;&gt;&lt;span style=&quot;color: #9399B2;&quot;&gt;        &amp;quot;&lt;/span&gt;&lt;span style=&quot;color: #89B4FA;&quot;&gt;icon&lt;/span&gt;&lt;span style=&quot;color: #9399B2;&quot;&gt;&amp;quot;:&lt;/span&gt;&lt;span style=&quot;color: #A6E3A1;&quot;&gt; &amp;quot;.default_icon&amp;quot;&lt;/span&gt;&lt;/span&gt;
+&lt;span class=&quot;giallo-l&quot;&gt;&lt;span style=&quot;color: #9399B2;&quot;&gt;      }&lt;/span&gt;&lt;/span&gt;
+&lt;span class=&quot;giallo-l&quot;&gt;&lt;span style=&quot;color: #9399B2;&quot;&gt;    ]&lt;/span&gt;&lt;/span&gt;
+&lt;span class=&quot;giallo-l&quot;&gt;&lt;span style=&quot;color: #9399B2;&quot;&gt;  }&lt;/span&gt;&lt;/span&gt;
+&lt;span class=&quot;giallo-l&quot;&gt;&lt;span style=&quot;color: #9399B2;&quot;&gt;]&lt;/span&gt;&lt;/span&gt;
+&lt;span class=&quot;giallo-l&quot;&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;I have plans with the &lt;code&gt;groups&lt;/code&gt;, but it&#39;s now just there. So is the icon field.&lt;/p&gt;
+&lt;p&gt;Good thing about Intellij&#39;s Rust plugin is, you can copy a valid JSON structure, paste it, and it will generate the structs for you!
+This is an amazingly useful feature! Saves so much time. I am sure there are specific tools for this.
+Maybe I&#39;ll have to take a look someday.&lt;/p&gt;
+&lt;p&gt;Making the GUI was straightforward. Well, this is a plain application anyway.
+Once I have the core features done, I will finetune it.&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;../../../assets/2024-11-29_14-34.png&quot; alt=&quot;2024-11-29_14-34.png&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;Yeah, not the best of looks. But it works.&lt;/p&gt;
+&lt;p&gt;Now, until I add a configuration option in the UI, only way to add shortcuts is to edit the json file.
+But changes are not reloaded automatically, will have to restart the program everytime there is a change.
+So I want to run a background task that will check the config file and reload if any changes are made.
+And iced comes with &lt;code&gt;time::every&lt;/code&gt; function, that would do the job.
+But it&#39;s not available with &lt;code&gt;default&lt;/code&gt; features. At first I was confused, why is it not available?
+Actually, this is available only with certain features.
+One of them is &lt;code&gt;smol&lt;/code&gt;, so I add that.&lt;/p&gt;
+&lt;p&gt;Now in the subscription method, I have two tasks, one is the timer another is key press listener.
+using &lt;code&gt;Subscription::batch&lt;/code&gt; I can return multiple tasks.&lt;/p&gt;
+&lt;p&gt;So, now I have a task that reloads the configuration file every 2 seconds,
+I need to check the file modification date and only update if it&#39;s older than the loaded file.
+Before I get to that, another important issue I had to solve.&lt;/p&gt;
+&lt;p&gt;Running the commands have an issue, say you have a configuration like this:&lt;/p&gt;
+&lt;pre class=&quot;giallo&quot; style=&quot;color: #CDD6F4; background-color: #1E1E2E;&quot; &gt;&lt;code data-lang=&quot;json&quot;&gt;&lt;span class=&quot;giallo-l&quot;&gt;&lt;span style=&quot;color: #9399B2;&quot;&gt; {&lt;/span&gt;&lt;/span&gt;
+&lt;span class=&quot;giallo-l&quot;&gt;&lt;span style=&quot;color: #9399B2;&quot;&gt;  &amp;quot;&lt;/span&gt;&lt;span style=&quot;color: #89B4FA;&quot;&gt;name&lt;/span&gt;&lt;span style=&quot;color: #9399B2;&quot;&gt;&amp;quot;:&lt;/span&gt;&lt;span style=&quot;color: #A6E3A1;&quot;&gt; &amp;quot;System update&amp;quot;&lt;/span&gt;&lt;span style=&quot;color: #9399B2;&quot;&gt;,&lt;/span&gt;&lt;/span&gt;
+&lt;span class=&quot;giallo-l&quot;&gt;&lt;span style=&quot;color: #9399B2;&quot;&gt;  &amp;quot;&lt;/span&gt;&lt;span style=&quot;color: #89B4FA;&quot;&gt;cmd&lt;/span&gt;&lt;span style=&quot;color: #9399B2;&quot;&gt;&amp;quot;:&lt;/span&gt;&lt;span style=&quot;color: #A6E3A1;&quot;&gt; &amp;quot;wezterm start tmux new &amp;#39;yay -Suy --noconfirm; read&amp;#39;&amp;quot;&lt;/span&gt;&lt;span style=&quot;color: #9399B2;&quot;&gt;,&lt;/span&gt;&lt;/span&gt;
+&lt;span class=&quot;giallo-l&quot;&gt;&lt;span style=&quot;color: #9399B2;&quot;&gt;  &amp;quot;&lt;/span&gt;&lt;span style=&quot;color: #89B4FA;&quot;&gt;shortcut&lt;/span&gt;&lt;span style=&quot;color: #9399B2;&quot;&gt;&amp;quot;:&lt;/span&gt;&lt;span style=&quot;color: #A6E3A1;&quot;&gt; &amp;quot;s&amp;quot;&lt;/span&gt;&lt;span style=&quot;color: #9399B2;&quot;&gt;,&lt;/span&gt;&lt;/span&gt;
+&lt;span class=&quot;giallo-l&quot;&gt;&lt;span style=&quot;color: #9399B2;&quot;&gt;  &amp;quot;&lt;/span&gt;&lt;span style=&quot;color: #89B4FA;&quot;&gt;icon&lt;/span&gt;&lt;span style=&quot;color: #9399B2;&quot;&gt;&amp;quot;:&lt;/span&gt;&lt;span style=&quot;color: #A6E3A1;&quot;&gt; &amp;quot;.default_icon&amp;quot;&lt;/span&gt;&lt;/span&gt;
+&lt;span class=&quot;giallo-l&quot;&gt;&lt;span style=&quot;color: #9399B2;&quot;&gt;}&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;Rust&#39;s Command package needs array of strings, normal split would give me this&lt;/p&gt;
+&lt;pre class=&quot;giallo&quot; style=&quot;color: #CDD6F4; background-color: #1E1E2E;&quot; &gt;&lt;code data-lang=&quot;json&quot;&gt;&lt;span class=&quot;giallo-l&quot;&gt;&lt;span style=&quot;color: #9399B2;&quot;&gt;[&lt;/span&gt;&lt;/span&gt;
+&lt;span class=&quot;giallo-l&quot;&gt;&lt;span style=&quot;color: #A6E3A1;&quot;&gt;  &amp;quot;wezterm&amp;quot;&lt;/span&gt;&lt;span style=&quot;color: #9399B2;&quot;&gt;,&lt;/span&gt;&lt;/span&gt;
+&lt;span class=&quot;giallo-l&quot;&gt;&lt;span style=&quot;color: #A6E3A1;&quot;&gt;  &amp;quot;start&amp;quot;&lt;/span&gt;&lt;span style=&quot;color: #9399B2;&quot;&gt;,&lt;/span&gt;&lt;/span&gt;
+&lt;span class=&quot;giallo-l&quot;&gt;&lt;span style=&quot;color: #A6E3A1;&quot;&gt;  &amp;quot;tmux&amp;quot;&lt;/span&gt;&lt;span style=&quot;color: #9399B2;&quot;&gt;,&lt;/span&gt;&lt;/span&gt;
+&lt;span class=&quot;giallo-l&quot;&gt;&lt;span style=&quot;color: #A6E3A1;&quot;&gt;  &amp;quot;new&amp;quot;&lt;/span&gt;&lt;span style=&quot;color: #9399B2;&quot;&gt;,&lt;/span&gt;&lt;/span&gt;
+&lt;span class=&quot;giallo-l&quot;&gt;&lt;span style=&quot;color: #A6E3A1;&quot;&gt;  &amp;quot;&amp;#39;yay&amp;quot;&lt;/span&gt;&lt;span style=&quot;color: #9399B2;&quot;&gt;,&lt;/span&gt;&lt;/span&gt;
+&lt;span class=&quot;giallo-l&quot;&gt;&lt;span style=&quot;color: #A6E3A1;&quot;&gt;  &amp;quot;-Suy&amp;quot;&lt;/span&gt;&lt;span style=&quot;color: #9399B2;&quot;&gt;,&lt;/span&gt;&lt;/span&gt;
+&lt;span class=&quot;giallo-l&quot;&gt;&lt;span style=&quot;color: #A6E3A1;&quot;&gt;  &amp;quot;--noconfirm;&amp;quot;&lt;/span&gt;&lt;span style=&quot;color: #9399B2;&quot;&gt;,&lt;/span&gt;&lt;/span&gt;
+&lt;span class=&quot;giallo-l&quot;&gt;&lt;span style=&quot;color: #A6E3A1;&quot;&gt;  &amp;quot;read&amp;#39;&amp;quot;&lt;/span&gt;&lt;/span&gt;
+&lt;span class=&quot;giallo-l&quot;&gt;&lt;span style=&quot;color: #9399B2;&quot;&gt;]&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;See the issue?&lt;/p&gt;
+&lt;pre class=&quot;giallo&quot; style=&quot;color: #CDD6F4; background-color: #1E1E2E;&quot; &gt;&lt;code data-lang=&quot;plain&quot;&gt;&lt;span class=&quot;giallo-l&quot;&gt;&lt;span&gt;..., &amp;quot;&amp;#39;yay&amp;quot;, &amp;quot;-Suy&amp;quot;, &amp;quot;--noconfirm;&amp;quot;, &amp;quot;read&amp;#39;&amp;quot;]&lt;/span&gt;&lt;/span&gt;
+&lt;span class=&quot;giallo-l&quot;&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;Not good.
+Now I started to think along ... regexp?
+... Nope.
+There are many other complications doing a string processing like this.
+Fortunately, a little Google took
+me &lt;a rel=&quot;external&quot; href=&quot;https://users.rust-lang.org/t/splitting-string-on-white-space-but-preserving-quoted-substring/73366/2&quot;&gt;to this page&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;A helpful comment explained why regexp or split was not going to work,
+and the OP later posted his own solution (Good on him), that worked for me without any changes!
+Well, in the end, we both were trying to do the same thing.
+Heh.&lt;/p&gt;
+&lt;p&gt;The solution gave me what I need! And now my program execution was running like a breeze.&lt;/p&gt;
+&lt;pre class=&quot;giallo&quot; style=&quot;color: #CDD6F4; background-color: #1E1E2E;&quot; &gt;&lt;code data-lang=&quot;json&quot;&gt;&lt;span class=&quot;giallo-l&quot;&gt;&lt;span style=&quot;color: #9399B2;&quot;&gt;[&lt;/span&gt;&lt;/span&gt;
+&lt;span class=&quot;giallo-l&quot;&gt;&lt;span style=&quot;color: #A6E3A1;&quot;&gt;  &amp;quot;wezterm&amp;quot;&lt;/span&gt;&lt;span style=&quot;color: #9399B2;&quot;&gt;,&lt;/span&gt;&lt;/span&gt;
+&lt;span class=&quot;giallo-l&quot;&gt;&lt;span style=&quot;color: #A6E3A1;&quot;&gt;  &amp;quot;start&amp;quot;&lt;/span&gt;&lt;span style=&quot;color: #9399B2;&quot;&gt;,&lt;/span&gt;&lt;/span&gt;
+&lt;span class=&quot;giallo-l&quot;&gt;&lt;span style=&quot;color: #A6E3A1;&quot;&gt;  &amp;quot;tmux&amp;quot;&lt;/span&gt;&lt;span style=&quot;color: #9399B2;&quot;&gt;,&lt;/span&gt;&lt;/span&gt;
+&lt;span class=&quot;giallo-l&quot;&gt;&lt;span style=&quot;color: #A6E3A1;&quot;&gt;  &amp;quot;new&amp;quot;&lt;/span&gt;&lt;span style=&quot;color: #9399B2;&quot;&gt;,&lt;/span&gt;&lt;/span&gt;
+&lt;span class=&quot;giallo-l&quot;&gt;&lt;span style=&quot;color: #A6E3A1;&quot;&gt;  &amp;quot;&amp;#39;yay -Suy --noconfirm; read&amp;#39;&amp;quot;&lt;/span&gt;&lt;/span&gt;
+&lt;span class=&quot;giallo-l&quot;&gt;&lt;span style=&quot;color: #9399B2;&quot;&gt;]&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;</content>
+        
+    </entry>
+</feed>
