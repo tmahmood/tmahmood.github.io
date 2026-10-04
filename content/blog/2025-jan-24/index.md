@@ -23,7 +23,7 @@ Hm, I think I should be opening up the repo, and share so that people can roast 
 I will write in details of the app in the next phase, but here's how it stands right now!
 
 
-![The latest version](/blog/images/2025-01-24_17-31.png)
+![The latest version](2025-01-24_17-31.png)
 
 
 So no group names, but colorful buttons! Yeah

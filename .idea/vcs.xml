@@ -11,5 +11,8 @@
   </component>
   <component name="VcsDirectoryMappings">
     <mapping directory="" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/themes/apollo" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/themes/audrey" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/themes/kaito" vcs="Git" />
   </component>
 </project>

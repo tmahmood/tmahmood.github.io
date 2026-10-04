@@ -109,7 +109,7 @@ Maybe I'll have to take a look someday.
 Making the GUI was straightforward. Well, this is a plain application anyway.
 Once I have the core features done, I will finetune it.
 
-![2024-11-29_14-34.png](../../../assets/2024-11-29_14-34.png)
+![2024-11-29_14-34.png](2024-11-29_14-34.png)
 
 Yeah, not the best of looks. But it works.
 
