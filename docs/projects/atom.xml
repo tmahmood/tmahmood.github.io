@@ -21,11 +21,11 @@
         <content type="html" xml:base="https://tmahmood.github.io/projects/nift/">&lt;h1 id=&quot;nift-note-it-fast&quot;&gt;Nift [Note It FasT]&lt;/h1&gt;
 &lt;p&gt;&lt;img src=&quot;https://tmahmood.github.io/projects/nift/hero_image.png&quot; alt=&quot;Hero Image&quot; /&gt;&lt;/p&gt;
 &lt;p&gt;There are many notes applications in the wild. But each one scratches different itches, and this one looks to take care of some, by being extremely simple, frictionless, minimalistic, while still packing quite the punch. And also looks nice!&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;&lt;a rel=&quot;external&quot; href=&quot;https://github.com/tmahmood/fluffy_sparrow/releases/tag/v0.0.12%22&quot;&gt;Download Demo&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a rel=&quot;external&quot; href=&quot;https://tmahmood.gumroad.com/l/fluffy_sparrow%22&quot;&gt;PRODUCT PAGE&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a rel=&quot;external&quot; href=&quot;https://tmahmood.gumroad.com/l/fluffy_sparrow?wanted=true%22&quot;&gt;BUY&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
+&lt;!--
+- [Download Demo](https://github.com/tmahmood/fluffy_sparrow/releases/tag/v0.0.12&quot; )
+- [PRODUCT PAGE](https://tmahmood.gumroad.com/l/fluffy_sparrow&quot;)
+- [BUY](https://tmahmood.gumroad.com/l/fluffy_sparrow?wanted=true&quot;)
+--&gt;
 &lt;blockquote&gt;
 &lt;p&gt;One time purchase, $5
 Initial Version, As Feature being add the price will increase.&lt;/p&gt;
