@@ -15,11 +15,9 @@ tags = ["Rust", "TauriV2", "Note taking", "open data"]
 There are many notes applications in the wild. But each one scratches different itches, and this one looks to take care of some, by being extremely simple, frictionless, minimalistic, while still packing quite the punch. And also looks nice!
 
 
-<!--
-- [Download Demo](https://github.com/tmahmood/fluffy_sparrow/releases/tag/v0.0.12" )
-- [PRODUCT PAGE](https://tmahmood.gumroad.com/l/fluffy_sparrow")
-- [BUY](https://tmahmood.gumroad.com/l/fluffy_sparrow?wanted=true")
--->
+- [Download Demo](https://github.com/tmahmood/fluffy_sparrow/releases/tag/v0.1.14)
+- [PRODUCT PAGE](https://tmahmood.gumroad.com/l/nift)
+- [BUY](https://tmahmood.gumroad.com/l/nift?wanted=true)
 
 {% <character name=""> %}One time purchase, $5. Initial Version, As Feature being added the price will increase {% </character> %}
 
