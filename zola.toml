@@ -1,5 +1,5 @@
 # The URL the site will be built for
-base_url = "https://tmahmood.github.io/"
+base_url = "https://mtarin.com/"
 
 # Whether to automatically compile all Sass files in the sass directory
 compile_sass = true
@@ -28,7 +28,7 @@ socials = [
 
 title="tmn"
 name = "Tarin Mahmood"
-homepage = "https://github.com/tmahmood"
+homepage = "https://mtarin.com"
 footer_links = [{ name = "resume", path = "/resume" }]
 
 [extra.analytics]

@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
     <title> - Blog</title>
-    <link rel="self" type="application/atom+xml" href="https://tmahmood.github.io/blog/atom.xml"/>
-    <link rel="alternate" type="text/html" href="https://tmahmood.github.io/blog/"/>
+    <link rel="self" type="application/atom+xml" href="https://mtarin.com/blog/atom.xml"/>
+    <link rel="alternate" type="text/html" href="https://mtarin.com/blog/"/>
     <generator uri="https://www.getzola.org/">Zola</generator>
     <updated>2026-04-02T00:00:00+00:00</updated>
-    <id>https://tmahmood.github.io/blog/atom.xml</id>
+    <id>https://mtarin.com/blog/atom.xml</id>
     <entry xml:lang="en">
         <title>More focus on my projects</title>
         <published>2026-04-02T00:00:00+00:00</published>
@@ -15,10 +15,10 @@
           <name>Unknown</name>
         </author>
         
-        <link rel="alternate" type="text/html" href="https://tmahmood.github.io/blog/2026-apr-02/"/>
-        <id>https://tmahmood.github.io/blog/2026-apr-02/</id>
+        <link rel="alternate" type="text/html" href="https://mtarin.com/blog/2026-apr-02/"/>
+        <id>https://mtarin.com/blog/2026-apr-02/</id>
         
-        <content type="html" xml:base="https://tmahmood.github.io/blog/2026-apr-02/">&lt;h1 id=&quot;more-focus-on-my-projects&quot;&gt;More focus on my projects&lt;/h1&gt;
+        <content type="html" xml:base="https://mtarin.com/blog/2026-apr-02/">&lt;h1 id=&quot;more-focus-on-my-projects&quot;&gt;More focus on my projects&lt;/h1&gt;
 &lt;p&gt;So, I am putting more focus on my projects last few months. Also learning, blender, pixel art, and sketching. 2026 has not been a good year for me. But I am looking forward to fixing it.&lt;/p&gt;
 &lt;h2 id=&quot;task-warrior-web&quot;&gt;Task warrior web&lt;/h2&gt;
 &lt;p&gt;Taskwarrior Web came along nicely, all the nitty clippy warnings are gone, more tests, and a lot of bug fixes. Looking forward to getting more features done in coming months.&lt;/p&gt;
@@ -39,10 +39,10 @@
           <name>Unknown</name>
         </author>
         
-        <link rel="alternate" type="text/html" href="https://tmahmood.github.io/blog/2025-jan-24/"/>
-        <id>https://tmahmood.github.io/blog/2025-jan-24/</id>
+        <link rel="alternate" type="text/html" href="https://mtarin.com/blog/2025-jan-24/"/>
+        <id>https://mtarin.com/blog/2025-jan-24/</id>
         
-        <content type="html" xml:base="https://tmahmood.github.io/blog/2025-jan-24/">&lt;h1 id=&quot;random-things-reminded-me-of-my-shiny-new-blog&quot;&gt;Random things reminded me of my shiny new blog&lt;/h1&gt;
+        <content type="html" xml:base="https://mtarin.com/blog/2025-jan-24/">&lt;h1 id=&quot;random-things-reminded-me-of-my-shiny-new-blog&quot;&gt;Random things reminded me of my shiny new blog&lt;/h1&gt;
 &lt;p&gt;Ah, well, last time was also 24th, but that&#39;s two months ago.
 It&#39;s not like I completely forgot about it,
 but no, it&#39;s just life, and its random habit of throwing unexpected things at you at the most random of times.
@@ -55,7 +55,7 @@ and in the middle started working on a Tauri app for a client, which made me rea
 &lt;p&gt;But I also made some nice improvements in the iced-rs app I was working on.&lt;/p&gt;
 &lt;p&gt;Hm, I think I should be opening up the repo, and share so that people can roast me.
 I will write in details of the app in the next phase, but here&#39;s how it stands right now!&lt;/p&gt;
-&lt;p&gt;&lt;img src=&quot;https://tmahmood.github.io/blog/2025-jan-24/2025-01-24_17-31.png&quot; alt=&quot;The latest version&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;https://mtarin.com/blog/2025-jan-24/2025-01-24_17-31.png&quot; alt=&quot;The latest version&quot; /&gt;&lt;/p&gt;
 &lt;p&gt;So no group names, but colorful buttons! Yeah&lt;/p&gt;
 &lt;p&gt;Here&#39;s the config&lt;/p&gt;
 &lt;pre class=&quot;giallo&quot; style=&quot;color: #CDD6F4; background-color: #1E1E2E;&quot; &gt;&lt;code data-lang=&quot;json&quot;&gt;&lt;span class=&quot;giallo-l&quot;&gt;&lt;span style=&quot;color: #9399B2;&quot;&gt;{&lt;/span&gt;&lt;/span&gt;
@@ -146,10 +146,10 @@ after I have made progress on my other pet project.&lt;/p&gt;
           <name>Unknown</name>
         </author>
         
-        <link rel="alternate" type="text/html" href="https://tmahmood.github.io/blog/2024-nov-24/"/>
-        <id>https://tmahmood.github.io/blog/2024-nov-24/</id>
+        <link rel="alternate" type="text/html" href="https://mtarin.com/blog/2024-nov-24/"/>
+        <id>https://mtarin.com/blog/2024-nov-24/</id>
         
-        <content type="html" xml:base="https://tmahmood.github.io/blog/2024-nov-24/">&lt;h1 id=&quot;going-back-to-iced-after-my-tauri-journey&quot;&gt;Going back to iced, after my tauri journey&lt;/h1&gt;
+        <content type="html" xml:base="https://mtarin.com/blog/2024-nov-24/">&lt;h1 id=&quot;going-back-to-iced-after-my-tauri-journey&quot;&gt;Going back to iced, after my tauri journey&lt;/h1&gt;
 &lt;p&gt;Tauri is nice, it&#39;s really easy to get started, but I feel,
 iced deserves some attention, I have used it for a client in a previous project, and it worked pretty well.
 It worked on both Linux and Windows, without any extra hassle.
@@ -236,7 +236,7 @@ This is an amazingly useful feature! Saves so much time. I am sure there are spe
 Maybe I&#39;ll have to take a look someday.&lt;/p&gt;
 &lt;p&gt;Making the GUI was straightforward. Well, this is a plain application anyway.
 Once I have the core features done, I will finetune it.&lt;/p&gt;
-&lt;p&gt;&lt;img src=&quot;https://tmahmood.github.io/blog/2024-nov-24/2024-11-29_14-34.png&quot; alt=&quot;2024-11-29_14-34.png&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;https://mtarin.com/blog/2024-nov-24/2024-11-29_14-34.png&quot; alt=&quot;2024-11-29_14-34.png&quot; /&gt;&lt;/p&gt;
 &lt;p&gt;Yeah, not the best of looks. But it works.&lt;/p&gt;
 &lt;p&gt;Now, until I add a configuration option in the UI, only way to add shortcuts is to edit the json file.
 But changes are not reloaded automatically, will have to restart the program everytime there is a change.
