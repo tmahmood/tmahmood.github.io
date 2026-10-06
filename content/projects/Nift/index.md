@@ -12,25 +12,37 @@ tags = ["Rust", "TauriV2", "Note taking", "open data"]
 
 ![Hero Image](hero_image.png)
 
-There are many notes applications in the wild. But each one scratches different itches, and this one looks to take care of some, by being extremely simple, frictionless, minimalistic, while still packing quite the punch. And also looks nice!
-
+There are many notes applications in the wild. But each one scratches different itches, and this one looks to take care
+of some, by being extremely simple, frictionless, minimalistic, while still packing quite the punch. And also looks
+nice!
 
 - [Download Demo](https://github.com/tmahmood/fluffy_sparrow/releases/tag/v0.1.14)
 - [PRODUCT PAGE](https://tmahmood.gumroad.com/l/nift)
 - [BUY](https://tmahmood.gumroad.com/l/nift?wanted=true)
 
-{% <character name=""> %}One time purchase, $5. Initial Version, As Feature being added the price will increase {% </character> %}
+{% <character name=""> %}Price is $5, one time.{% </character> %}
+
+As I add features price will go up. Whenever you pay, you'll always get the latest full-featured version, without any
+strings. And, all the future updates are free.
+
+I am continuously working to improve the app and add features. Once you purchase, you should sign in to the product
+update page to stay up to date. And You can request features too! Provided it goes with this app’s principle, I will try
+my best to incorporate it.
 
 ## Features
+
 So, what Nift can do to? Let's see!
 
-The most important part of a note app is taking notes. And NiFT can make it quick and simple as open the app, type the note and enter, and done!
+The most important part of a note app is taking notes. And NiFT can make it quick and simple as open the app, type the
+note and enter, and done!
 
 ![Test Input](text_input.png)
 
-That's all you have to do! All the operations are simply done from this single text input. It does its best to be as frictionless as possible. But you can do a lot from a single text input!
+That's all you have to do! All the operations are simply done from this single text input. It does its best to be as
+frictionless as possible. But you can do a lot from a single text input!
 
 Like
+
 - writing down your todo, marking them done,
 - creating reminders
 - do many kinds of calculations quickly,
@@ -52,18 +64,24 @@ Fine tune filter range find notes quickly, only with keyboard.
 Or perform searches.
 ![Search](search.png)
 
-
 ## Core Principle
-NiFt's core principle is making journaling as frictionless as possible. And, a lot of thought is put in to making it so, and still being done. It's handcrafted, without any LLM, and with a lot of care.
 
-And many more features are coming! Like Time tracking, scripting, etc., with only one time purchase, that will cost you less than a month of coffee.
+NiFt's core principle is making journaling as frictionless as possible. And, a lot of thought is put in to making it so,
+and still being done. It's handcrafted, without any LLM, and with a lot of care.
+
+And many more features are coming! Like Time tracking, scripting, etc., with only one time purchase, that will cost you
+less than a month of coffee.
 
 ## Your data.
-Data is stored in text format, on your device and completely open. Even in 100 years, or tomorrow, if this developer falls under the bus, you will have the application as long as you want. The format is easy to navigate and searchable using *nix commands.
+
+Data is stored in text format, on your device and completely open. Even in 100 years, or tomorrow, if this developer
+falls under the bus, you will have the application as long as you want. The format is easy to navigate and searchable
+using *nix commands.
 
 ![File on Text](file_on_text.png)
 
-It has no online features, no intention to have any; In the future, You can expect to have online interaction, through scripts written by you, but not the app itself.
+It has no online features, no intention to have any; In the future, You can expect to have online interaction, through
+scripts written by you, but not the app itself.
 
 Note: I do not have a Mac, so no Mac support, yet.
 

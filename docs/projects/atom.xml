@@ -19,7 +19,9 @@
         <id>https://mtarin.com/projects/nift/</id>
         
         <content type="html" xml:base="https://mtarin.com/projects/nift/">&lt;p&gt;&lt;img src=&quot;https://mtarin.com/projects/nift/hero_image.png&quot; alt=&quot;Hero Image&quot; /&gt;&lt;/p&gt;
-&lt;p&gt;There are many notes applications in the wild. But each one scratches different itches, and this one looks to take care of some, by being extremely simple, frictionless, minimalistic, while still packing quite the punch. And also looks nice!&lt;/p&gt;
+&lt;p&gt;There are many notes applications in the wild. But each one scratches different itches, and this one looks to take care
+of some, by being extremely simple, frictionless, minimalistic, while still packing quite the punch. And also looks
+nice!&lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;&lt;a rel=&quot;external&quot; href=&quot;https://github.com/tmahmood/fluffy_sparrow/releases/tag/v0.1.14&quot;&gt;Download Demo&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;&lt;a rel=&quot;external&quot; href=&quot;https://tmahmood.gumroad.com/l/nift&quot;&gt;PRODUCT PAGE&lt;/a&gt;&lt;/li&gt;
@@ -30,15 +32,22 @@
 &lt;/div&gt;
 &lt;div class=&quot;character-content&quot;&gt;
 &lt;div class=&quot;character-bubble&quot;&gt;
-&lt;p&gt;One time purchase, $5. Initial Version, As Feature being added the price will increase&lt;/p&gt;
+&lt;p&gt;Price is $5, one time.&lt;/p&gt;
 &lt;/div&gt;
 &lt;/div&gt;
 &lt;/div&gt;
+&lt;p&gt;As I add features price will go up. Whenever you pay, you&#39;ll always get the latest full-featured version, without any
+strings. And, all the future updates are free.&lt;/p&gt;
+&lt;p&gt;I am continuously working to improve the app and add features. Once you purchase, you should sign in to the product
+update page to stay up to date. And You can request features too! Provided it goes with this app’s principle, I will try
+my best to incorporate it.&lt;/p&gt;
 &lt;h2 id=&quot;features&quot;&gt;Features&lt;/h2&gt;
 &lt;p&gt;So, what Nift can do to? Let&#39;s see!&lt;/p&gt;
-&lt;p&gt;The most important part of a note app is taking notes. And NiFT can make it quick and simple as open the app, type the note and enter, and done!&lt;/p&gt;
+&lt;p&gt;The most important part of a note app is taking notes. And NiFT can make it quick and simple as open the app, type the
+note and enter, and done!&lt;/p&gt;
 &lt;p&gt;&lt;img src=&quot;https://mtarin.com/projects/nift/text_input.png&quot; alt=&quot;Test Input&quot; /&gt;&lt;/p&gt;
-&lt;p&gt;That&#39;s all you have to do! All the operations are simply done from this single text input. It does its best to be as frictionless as possible. But you can do a lot from a single text input!&lt;/p&gt;
+&lt;p&gt;That&#39;s all you have to do! All the operations are simply done from this single text input. It does its best to be as
+frictionless as possible. But you can do a lot from a single text input!&lt;/p&gt;
 &lt;p&gt;Like&lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;writing down your todo, marking them done,&lt;/li&gt;
@@ -58,12 +67,17 @@ Fine tune filter range find notes quickly, only with keyboard.&lt;/p&gt;
 &lt;p&gt;Or perform searches.
 &lt;img src=&quot;https://mtarin.com/projects/nift/search.png&quot; alt=&quot;Search&quot; /&gt;&lt;/p&gt;
 &lt;h2 id=&quot;core-principle&quot;&gt;Core Principle&lt;/h2&gt;
-&lt;p&gt;NiFt&#39;s core principle is making journaling as frictionless as possible. And, a lot of thought is put in to making it so, and still being done. It&#39;s handcrafted, without any LLM, and with a lot of care.&lt;/p&gt;
-&lt;p&gt;And many more features are coming! Like Time tracking, scripting, etc., with only one time purchase, that will cost you less than a month of coffee.&lt;/p&gt;
+&lt;p&gt;NiFt&#39;s core principle is making journaling as frictionless as possible. And, a lot of thought is put in to making it so,
+and still being done. It&#39;s handcrafted, without any LLM, and with a lot of care.&lt;/p&gt;
+&lt;p&gt;And many more features are coming! Like Time tracking, scripting, etc., with only one time purchase, that will cost you
+less than a month of coffee.&lt;/p&gt;
 &lt;h2 id=&quot;your-data&quot;&gt;Your data.&lt;/h2&gt;
-&lt;p&gt;Data is stored in text format, on your device and completely open. Even in 100 years, or tomorrow, if this developer falls under the bus, you will have the application as long as you want. The format is easy to navigate and searchable using *nix commands.&lt;/p&gt;
+&lt;p&gt;Data is stored in text format, on your device and completely open. Even in 100 years, or tomorrow, if this developer
+falls under the bus, you will have the application as long as you want. The format is easy to navigate and searchable
+using *nix commands.&lt;/p&gt;
 &lt;p&gt;&lt;img src=&quot;https://mtarin.com/projects/nift/file_on_text.png&quot; alt=&quot;File on Text&quot; /&gt;&lt;/p&gt;
-&lt;p&gt;It has no online features, no intention to have any; In the future, You can expect to have online interaction, through scripts written by you, but not the app itself.&lt;/p&gt;
+&lt;p&gt;It has no online features, no intention to have any; In the future, You can expect to have online interaction, through
+scripts written by you, but not the app itself.&lt;/p&gt;
 &lt;p&gt;Note: I do not have a Mac, so no Mac support, yet.&lt;/p&gt;
 &lt;h2 id=&quot;features-1&quot;&gt;Features&lt;/h2&gt;
 &lt;ul&gt;
