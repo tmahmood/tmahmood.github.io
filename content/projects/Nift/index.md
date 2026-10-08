@@ -16,7 +16,7 @@ There are many notes applications in the wild. But each one scratches different 
 of some, by being extremely simple, frictionless, minimalistic, while still packing quite the punch. And also looks
 nice!
 
-- [Download Demo](https://github.com/tmahmood/fluffy_sparrow/releases/tag/v0.1.14)
+- [Download Demo](https://github.com/tmahmood/fluffy_sparrow/releases)
 - [PRODUCT PAGE](https://tmahmood.gumroad.com/l/nift)
 - [BUY](https://tmahmood.gumroad.com/l/nift?wanted=true)
 
