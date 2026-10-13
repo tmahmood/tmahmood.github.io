@@ -23,7 +23,7 @@ template = "homepage.html"
 # Hello!
 
 I'm Tarin Mahmood, I am a software engineer specialized in:
-- High performance application
+- High-performance application
 - ETL
 - Backend, database
 - Issues find/resolve in an codebase
@@ -31,19 +31,20 @@ I'm Tarin Mahmood, I am a software engineer specialized in:
 
 # I’m currently working on ...
 
-- Simple, frictionless, note taking application
-- Making a quick-launch application
+- [NiFT, Simple, frictionless, note-taking application](https://mtarin.com/projects/nift/)
+- [Quick-launch application](https://github.com/tmahmood/lift)
 - Client projects
-- Writing blog about developing the quick launch application
 
 ## Do you need
-- Working with large dataset, process them, organize them, or just reading them efficiently?
+- Fixing your AI-generated application
+- Tauri V2, Desktop application
+- Web Applications
+- Working with large datasets, process them, organize them, or just reading them efficiently?
 - Document processing
 - Finding issues in your existing project, and resolve
 - Or any kind of desktop application or script
-- Web Application
 
-Email me at Gmail: : mahmood.tarin
+Email me at Gmail: mahmood.tarin
 
 ## You might find these projects interesting!
 
