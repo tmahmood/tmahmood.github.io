@@ -3,3 +3,4 @@
 zola build
 cp CNAME docs/
 cp favicon.ico docs/
+git push
